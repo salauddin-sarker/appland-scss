@@ -1,0 +1,60 @@
+// testimonial
+.testimonial-area{
+    padding: 93px 0 108px 0;
+    .owl-carousel{
+        display: block;
+    }
+    .review-title{
+        @include section-title;
+    }
+    .client-slider{
+        .testimonial-content{
+            box-shadow: rgb(0 0 0 / 24%) 0px 7px 8px;
+            position: relative;
+            padding: 0 0 54px 40px;
+            margin: 56px 0 66px 0;
+            &::after{
+                content: "\f10d";
+                color: $btnbg-color;
+                font-family: "Font Awesome 6 free";
+                font-size: 48px;
+                font-weight: 600;
+                left: 40px;
+                position: absolute;
+                top: -38px;
+            }
+            .client-para{
+                color: $gray-color;
+                font-size: 18px;
+                line-height: 32px;
+                padding: 55px 155px 9px 0;
+            }
+            .client-details{
+                display: flex;
+                .client-image{
+                    padding-right: 20px;
+                }
+                .client-bio{
+                    // .client-name{}
+                    .client-status{
+                        color: $gray-color;
+                        a{
+                            color: $gray-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .owl-item.active {
+        margin-right: 34px!important;
+        margin-left: 2px;
+    }
+    .owl-theme .owl-dots .owl-dot span{
+        border: 1px solid $btnbg-color;
+        background-color: transparent;
+    }
+    .owl-theme .owl-dots .owl-dot.active span{
+        background-color: $btnbg-color;
+    }
+}

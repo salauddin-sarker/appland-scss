@@ -1,0 +1,54 @@
+// banner
+.home4-banner-area{
+    background-image: url('../images/banner/home4-banner.png');
+    background-size: contain;
+    background-position: center;
+    height: 869px;
+    width: 100%;
+    .banner-left-content{
+        // position: absolute;
+        position: relative;
+        top: 59%;
+        .banner-heading{
+            color: $white-color;
+            font-size: $fs45;
+            font-weight: 400;
+            line-height: 55px;
+            padding-bottom: 18px;
+            text-transform: capitalize;
+        }
+        .banner-sub-heading{
+            color: $white-color;
+            font-size: $fs24;
+            line-height: 40px;
+            padding-bottom: 38px;
+            padding-right: 53px;
+        }
+        .banner-btn{
+            .banner-btn-uniq{
+                @include global-btn;
+                padding: 21px 41px;
+                text-transform: uppercase;
+                margin-right: 17px;
+                transition: all .3s;
+                &:hover{
+                    background-color: $white-color;
+                    color: $dark-color;
+                    border: 1px solid transparent;
+                }
+            }
+            // a{}
+            i{
+                color: $white-color;
+                font-size: $fs30;
+                padding: 0 18px;
+            }
+        }
+    }
+    .banner-right-content{
+        position: relative;
+        top: 38%;
+        left: 8%;
+
+    }
+}

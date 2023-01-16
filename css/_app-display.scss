@@ -1,0 +1,38 @@
+.app-display-area{
+    background-image: url("../images/banner/app-displaybg.png");
+    height: 900px;
+    text-align: center;
+    .app-headline{
+        font-size: $fs35;
+        line-height: 45px;
+        padding-top: 103px;
+        padding-bottom: 83px;
+    }
+    .app-display-image{
+        padding-bottom: 15px;
+        margin-right: 110px;
+    }
+    .app-display-btn{
+        a{
+            @include global-btn;
+            border: 1px solid $btnbg-color;
+            color: $btnbg-color;
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 50px;
+            height: 51px;
+            margin-right: 28px;
+            padding: 0;
+            transition: all .3s;
+            width: 152px;
+            &:hover{
+                color: $white-color;
+                background-color: $btnbg-color;
+            }
+            i{
+                padding-right: 16px;
+            }
+        }
+    }
+}

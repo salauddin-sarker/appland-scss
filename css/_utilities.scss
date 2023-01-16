@@ -1,0 +1,81 @@
+// utilities
+html, body{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+h1,h2,h3,h4,h5{
+    font-weight: bold;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+   max-width: 100%;
+}
+@mixin main-heading {
+    color: var(--para);
+    font-size: $fs36;
+    line-height: 28px;
+    margin-bottom: 18px;
+    text-align: center;
+}
+@mixin sub-heading{
+    color: $para-color;
+    font-size: $fs16;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+}
+@mixin section-title{
+    color: $title-color;
+    font-size: 35px;
+    line-height: 60px;
+    text-align: center;
+}
+@mixin section-sub-title{
+    color: $gray-color;
+    font-size: $fs16;
+    line-height: 28px;
+    max-width: 520px;
+    margin: auto;
+    padding-bottom: 71px;
+}
+@mixin global-btn{
+    border-radius: 30px;
+    border: 1px solid $white-color;
+    color: $white-color;
+    font-size: $fs16;
+    font-weight: bold;
+    padding: 9px 36px;
+    transition: all 0.5s;
+}
+@mixin gfeatures-title{
+    color: $title-color;
+    font-size: $fs36;
+    font-weight: bold;
+    line-height: 45px;
+}
+@mixin f-title {
+    color: $white-color;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 34px;
+
+}
