@@ -410,7 +410,7 @@ header .header-top .get-now-btn:hover.get-now-btn a {
   text-align: center;
 }
 .testimonial-area .client-slider .testimonial-content {
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 7px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 9px;
   position: relative;
   padding: 0 0 54px 40px;
   margin: 56px 0 66px 0;
@@ -629,8 +629,21 @@ header .header-top .get-now-btn:hover.get-now-btn a {
   color: #585867;
 }
 
-.home4-banner-area {
-  background-size: cover;
+@media (max-width: 1399.98px) {
+  header .header-top .main-nav ul a {
+    font-size: 14px;
+  }
+  .home4-banner-area {
+    height: 800px;
+    background-size: cover;
+  }
+  .features-area .features-content .features-text {
+    padding-top: 54px;
+  }
+  .features-area .features-content .features-text {
+    max-width: 100%;
+    padding-top: 100px;
+  }
 }
 @media (max-width: 1199.98px) {
   header .header-top .main-nav ul li {
@@ -640,35 +653,196 @@ header .header-top .get-now-btn:hover.get-now-btn a {
     font-size: 14px;
     padding: 9px 20px;
   }
-}
-.home4-banner-area {
-  height: 700px;
-}
-.home4-banner-area .banner-left-content .banner-sub-heading {
-  font-size: 19px;
-  line-height: 31px;
+  .home4-banner-area {
+    height: 700px;
+  }
+  .home4-banner-area .banner-left-content .banner-sub-heading {
+    font-size: 19px;
+    line-height: 31px;
+  }
+  .home4-banner-area .banner-right-content {
+    position: relative;
+    top: 38%;
+    left: 2%;
+  }
+  .support-area {
+    padding-top: 50px;
+  }
+  .support-area .container {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 28px;
+  }
+  .features-area {
+    padding: 48px 0 0px 0;
+  }
+  .features-area .features-content {
+    padding-bottom: 50px;
+  }
+  .features-area .features-content .features-text {
+    padding-top: 160px;
+  }
+  .features-area .features-content .features-image1 {
+    padding-left: 46px;
+  }
+  .features-area .features-content .features-text {
+    padding-top: 100px;
+  }
+  .features-area .features-content .features-text .features-title {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .features-area .features-content .features-text2 {
+    padding: 67px 0px 0 17px;
+  }
+  .features-area .features-content .freatures-subtitle {
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 52px;
+  }
+  .video-features-area {
+    padding: 33px 0 43px 0;
+  }
+  .video-features-area .video-title-area .video-title {
+    color: #1a264a;
+    font-size: 35px;
+    line-height: 60px;
+    text-align: center;
+    padding-bottom: 0px;
+  }
+  .video-features-area .video-title-area .video-sub-title {
+    padding-bottom: 41px;
+  }
+  .video-features-area .video-player-content .o-video iframe {
+    border-radius: 5px;
+    width: 100%;
+  }
+  .explore-features-area {
+    padding: 32px 0 0px 0;
+  }
+  .explore-features-area .explore-items {
+    padding: 0 35px;
+  }
+  .explore-features-area .explore-items .explore-single-item {
+    padding-bottom: 27px;
+  }
+  .explore-features-area .explore-items .explore-single-item .explore-text .explore-name-bio {
+    padding-right: 0px;
+  }
+  .user-count-area {
+    height: 290px;
+  }
+  .user-count-area .count-area {
+    padding-top: 30px;
+  }
+  .user-count-area .count-area .user-count {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  .user-count-area .count-area .count-text {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  .user-count-area .count-area .count-help {
+    padding: 0px 0 47px 0;
+  }
+  .testimonial-area {
+    padding: 33px 0 37px 0;
+  }
+  .testimonial-area .owl-carousel {
+    display: block;
+  }
+  .testimonial-area .review-title {
+    color: #1a264a;
+    font-size: 35px;
+    line-height: 60px;
+    text-align: center;
+  }
+  .testimonial-area .client-slider .testimonial-content {
+    padding: 0 0 54px 40px;
+    margin: 45px 0 37px 0;
+  }
+  .testimonial-area .client-slider .testimonial-content::after {
+    font-size: 40px;
+    top: -32px;
+  }
+  .testimonial-area .client-slider .testimonial-content .client-para {
+    color: #797988;
+    font-size: 15px;
+    line-height: 32px;
+    padding: 55px 34px 9px 0;
+  }
+  .testimonial-area .client-slider .testimonial-content .client-details {
+    display: flex;
+  }
+  .app-display-area {
+    height: 690px;
+  }
+  .app-display-area .app-headline {
+    font-size: 30px;
+    line-height: 40px;
+    padding-top: 39px;
+    padding-bottom: 39px;
+  }
+  .app-display-area .app-display-image {
+    padding-bottom: 0;
+    margin-right: 0;
+  }
+  .app-display-area .app-display-btn a {
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 9px 36px;
+    transition: all 0.5s;
+    border: 1px solid #1ba555;
+    color: #1ba555;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 50px;
+    height: 51px;
+    margin-right: 28px;
+    padding: 0;
+    transition: all 0.3s;
+    width: 152px;
+  }
+  .app-display-area .app-display-btn a:hover {
+    color: #ffffff;
+    background-color: #1ba555;
+  }
+  .app-display-area .app-display-btn a i {
+    padding-right: 16px;
+  }
+  footer .footer-top {
+    padding: 24px 0 18px 0;
+  }
+  footer .footer-top .col-sm-4 {
+    margin: 0;
+  }
+  footer .footer-top .footer-content1 .footer-text p {
+    padding-bottom: 0;
+  }
+  footer .footer-top .footer-content4 .f-text a img {
+    height: 88px;
+    width: 88px;
+    padding: 5px;
+  }
+  footer .footer-bottom .footer-bottom-left span {
+    font-size: 12px;
+  }
 }
 @media (max-width: 991.98px) {
   header .header-top .main-nav ul li {
     padding: 57px 13px;
   }
   header .header-top .main-nav ul li a {
-<<<<<<< HEAD
-    font-size: 10px;
-  }
-  header .get-now-btn a {
-=======
->>>>>>> fdef4c5020cd6c695053626e61abaa49e700a874
     font-size: 12px;
   }
   header .header-top .get-now-btn a {
     font-size: 12px;
-    padding: 7px 13px;
-    margin-left: 12px;
-  }
-  header .header-top .get-now-btn:hover.get-now-btn a {
-    font-size: 12px;
-    padding: 6px 14px;
+    padding: 7px 14px;
+    margin-left: 0px;
   }
   .home4-banner-area {
     height: 500px;
