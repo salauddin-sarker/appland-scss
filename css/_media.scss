@@ -57,6 +57,7 @@
             }
         }
         .banner-right-content{
+            left: 3%;
         }
     }
 
@@ -217,7 +218,8 @@
             .freatures-subtitle{
                 font-size: 14px;
                 line-height: 26px;
-                margin-bottom: 52px; 
+                margin-bottom: 52px;
+                padding-right: 36px; 
             }
             a{
                
@@ -485,12 +487,130 @@
                 }
             }
             .banner-right-content{
-                left: 30%;
+                
             }
     }
+    // features
+    .features-area{
+        padding: 48px 0 0px 0;
+        .features-content{
+            padding-bottom: 50px;
+        .features-text{
+            padding-top: 160px;
+            //     .features-image{
+            //         // img{
+
+            //         // }
+            //     }
+            //    .features-image2{
+            //     padding-left: 30px;
+            //    }
+        }
+        }
+        .features-content{
+            .features-image2{
+                padding-right: 34px;
+            }
+            .features-image1{
+                padding-left: 19px;
+            }
+            .features-text{
+                padding-top: 0px;
+                .features-title{
+                }
+            }
+            .features-text2{
+                padding: 0px 0px 0 17px;
+                a{
+
+                }
+            }
+            .freatures-subtitle{ 
+            }
+            a{
+               
+            }
+            
+        }
+    }
+
+
+
+
+
+
+
+
+
+
 }
 // // Small devices (landscape phones, less than 768px)
-// @media (max-width: 767.98px) { ... }
+@media (max-width: 767.98px) {
+    // header
+    header{
+        .header-top{
+            .container-fluid{
+                .header-top .row{
+                    .blog-header-logo{
+                    }
+                    .header-logo{
+                        a{
+                            img{
+                              
+                            }
+                        }
+                    }
+                }
+            }
+            .main-nav{
+                ul{
+                    li{
+                        a{
+                        }
+                        }
+                        }
+            }
+            .get-now-btn {
+                a{
+
+                }
+                &:hover.get-now-btn a{
+                   
+                }
+            }
+        }
+    }
+            
+         // banner
+    .home4-banner-area{
+            .banner-left-content{
+                .banner-heading{
+                }
+                .banner-sub-heading{
+                }
+                .banner-btn{
+                    .banner-btn-uniq{
+                        &:hover{
+                        }
+                    }
+                    // a{}
+                    i{
+                    }
+                }
+            }
+            .banner-right-content{
+                
+            }
+    }
+
+
+
+
+
+
+
+
+}
 
 // // X-Small devices (portrait phones, less than 576px)
 // @media (max-width: 575.98px) { ... }

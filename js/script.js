@@ -34,7 +34,7 @@
 
 
 
-
+// mobile bar bootstrap
 function myFunction() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
@@ -42,4 +42,8 @@ function myFunction() {
   } else {
     x.style.display = "block";
   }
+}
+
+let changeIcon =function(icon){
+  icon.classList.toggle('fa-times')
 }

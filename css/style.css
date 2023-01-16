@@ -72,11 +72,6 @@ img {
   top: 0;
 }
 
-.topnav a:hover {
-  background-color: #ffffff;
-  color: black;
-}
-
 .mobile-container .active {
   background-color: #000000;
   color: #ffffff;
@@ -199,8 +194,39 @@ header .header-top .get-now-btn:hover.get-now-btn a {
   position: relative;
   top: 38%;
   left: 8%;
+  -webkit-animation: rotateEarth 5s infinite;
+          animation: rotateEarth 5s infinite;
 }
 
+@-webkit-keyframes rotateEarth {
+  0% {
+    bottom: -3px;
+  }
+  8.33%, 25% {
+    left: 14px;
+  }
+  33.33%, 50% {
+    top: 125px;
+  }
+  58.33%, 75% {
+    right: 20px;
+  }
+}
+
+@keyframes rotateEarth {
+  0% {
+    bottom: -3px;
+  }
+  8.33%, 25% {
+    left: 14px;
+  }
+  33.33%, 50% {
+    top: 125px;
+  }
+  58.33%, 75% {
+    right: 20px;
+  }
+}
 .support-area {
   padding-top: 122px;
 }
@@ -637,6 +663,9 @@ header .header-top .get-now-btn:hover.get-now-btn a {
     height: 800px;
     background-size: cover;
   }
+  .home4-banner-area .banner-right-content {
+    left: 3%;
+  }
   .features-area .features-content .features-text {
     padding-top: 54px;
   }
@@ -698,6 +727,7 @@ header .header-top .get-now-btn:hover.get-now-btn a {
     font-size: 14px;
     line-height: 26px;
     margin-bottom: 52px;
+    padding-right: 36px;
   }
   .video-features-area {
     padding: 33px 0 43px 0;
@@ -867,7 +897,25 @@ header .header-top .get-now-btn:hover.get-now-btn a {
     font-size: 18px;
     padding: 0 10px;
   }
-  .home4-banner-area .banner-right-content {
-    left: 30%;
+  .features-area {
+    padding: 48px 0 0px 0;
+  }
+  .features-area .features-content {
+    padding-bottom: 50px;
+  }
+  .features-area .features-content .features-text {
+    padding-top: 160px;
+  }
+  .features-area .features-content .features-image2 {
+    padding-right: 34px;
+  }
+  .features-area .features-content .features-image1 {
+    padding-left: 19px;
+  }
+  .features-area .features-content .features-text {
+    padding-top: 0px;
+  }
+  .features-area .features-content .features-text2 {
+    padding: 0px 0px 0 17px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -49,6 +49,21 @@
         position: relative;
         top: 38%;
         left: 8%;
-
+        animation: rotateEarth 5s infinite;
     }
 }
+
+@keyframes rotateEarth {
+    0% {
+      bottom: -3px
+    }
+    8.33%, 25% {
+      left: 14px
+    }
+    33.33%, 50% {
+      top: 125px
+    }
+    58.33%, 75% {
+      right: 20px
+    }
+  }
