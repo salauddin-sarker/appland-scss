@@ -8,7 +8,16 @@
     speed: 4000,
     autoplay:true,
     autoplayTimeout:3000,
-    autoplayHoverPause:true
+    autoplayHoverPause:true,
+    responsive:{
+      0:{
+          items:1,
+          dots: false
+      },
+      992:{
+          items:2,
+      }
+  }
   });
   $('.play').on('click',function(){
       owl.trigger('play.owl.autoplay',[1000])

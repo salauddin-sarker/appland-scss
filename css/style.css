@@ -208,7 +208,7 @@ header .header-top .get-now-btn:hover.get-now-btn a {
   33.33%, 50% {
     top: 125px;
   }
-  58.33%, 75% {
+  100%, 75% {
     right: 20px;
   }
 }
@@ -223,7 +223,7 @@ header .header-top .get-now-btn:hover.get-now-btn a {
   33.33%, 50% {
     top: 125px;
   }
-  58.33%, 75% {
+  100%, 75% {
     right: 20px;
   }
 }
@@ -331,6 +331,24 @@ header .header-top .get-now-btn:hover.get-now-btn a {
   max-width: 520px;
   margin: auto;
   padding-bottom: 71px;
+}
+.video-features-area .video-player-content .o-video {
+  position: relative;
+}
+.video-features-area .video-player-content .o-video:hover:before {
+  opacity: 0;
+}
+.video-features-area .video-player-content .o-video:before {
+  background-image: url("../images/blog/video.png");
+  top: 0;
+  content: "";
+  height: 97%;
+  left: 0;
+  position: absolute;
+  transition: all 0.7s;
+  width: 100%;
+  z-index: 1;
+  opacity: 1;
 }
 .video-features-area .video-player-content .o-video iframe {
   border-radius: 5px;
@@ -917,5 +935,71 @@ header .header-top .get-now-btn:hover.get-now-btn a {
   }
   .features-area .features-content .features-text2 {
     padding: 0px 0px 0 17px;
+  }
+  .video-features-area .video-player-content .o-video:before {
+    background-image: url("../images/blog/video.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .explore-features-area .explore-content .explore-sub-title {
+    font-size: 14px;
+    line-height: 28px;
+    max-width: 455px;
+    margin: auto;
+    padding-bottom: 40px;
+  }
+  .testimonial-area .owl-item.active {
+    margin-right: 0px !important;
+    margin-left: 2px;
+  }
+  footer .footer-top .footer-content4 .f-text a img {
+    height: 120px;
+    width: 120px;
+  }
+}
+@media (max-width: 767.98px) {
+  .home4-banner-area {
+    height: 411px;
+  }
+  .home4-banner-area .banner-left-content {
+    top: 45%;
+  }
+  .home4-banner-area .banner-left-content .banner-heading {
+    font-size: 26px;
+    line-height: 35px;
+  }
+  .home4-banner-area .banner-left-content .banner-sub-heading {
+    font-size: 14px;
+    line-height: 22px;
+    padding-right: 0px;
+  }
+  .home4-banner-area .banner-right-content {
+    top: 25%;
+    left: 0%;
+  }
+  .support-area .container .support-content .support-single-content .support-title {
+    font-size: 14px;
+    line-height: 22px;
+    padding-bottom: 0px;
+  }
+  .support-area .container .support-content .support-single-content .support-sub-title {
+    color: #797988;
+    font-size: 12px;
+    max-width: 290px;
+  }
+  .user-count-area .count-area a {
+    padding: 20px 80px;
+  }
+  .app-display-area {
+    height: 533px;
+    background-position: bottom;
+  }
+  .app-display-area .app-display-btn a {
+    margin-right: 13px;
+  }
+  footer .footer-top .footer-content4 .f-text a img {
+    height: 120px;
+    width: 180px;
   }
 }/*# sourceMappingURL=style.css.map */

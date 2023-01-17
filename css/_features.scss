@@ -75,6 +75,22 @@
     }
     .video-player-content{
         .o-video{
+            position: relative;
+            &:hover:before{
+                opacity: 0;
+            }
+            &:before{
+                background-image: url("../images/blog/video.png");
+                top: 0;
+                content: "";
+                height: 97%;
+                left: 0;
+                position: absolute;
+                transition: all .7s;
+                width: 100%;
+                z-index: 1;
+                opacity: 1;
+            }
             iframe{
                 border-radius: 5px;
                 width: 100%;
