@@ -96,6 +96,7 @@
             
         }
     }
+    
 
 
 
@@ -490,6 +491,23 @@
                 
             }
     }
+    .support-area {
+        .container {
+            .support-content {
+                .support-single-content {
+                    .support-title {
+                        font-size: 14px;
+                        line-height: 22px;
+                        
+                    }
+                    .support-sub-title {
+                        font-size: 12px;
+                        max-width: 290px;
+                    }
+                }
+            }
+        }
+    }
     // features
     .features-area{
         padding: 48px 0 0px 0;
@@ -589,6 +607,13 @@
                     }
                 }
             }
+            .footer-content1{
+                .footer-social-icon {
+                    li {
+                        margin-bottom: 20px;
+                    }
+                }
+            }
         }
     }
 
@@ -681,6 +706,17 @@
             }
         }
     }
+    // features
+    .features-area{
+        .features-content{
+            .features-image {
+                max-width: 60%;
+                margin: auto;
+            }
+        }
+    }
+
+
     // user-count
     .user-count-area {
         .count-area {
@@ -696,7 +732,11 @@
         background-position: bottom;
         .app-display-btn {
             a {
-                margin-right: 13px;
+                margin-right: 4px;
+                line-height: 40px;
+                height: 40px;
+                font-size: 9px;
+                width: 105px;
             }
         }
     }
@@ -724,6 +764,98 @@
 }
 
 // // X-Small devices (portrait phones, less than 576px)
-// @media (max-width: 575.98px) { ... }
+@media (max-width: 575.98px) {
+    .home4-banner-area {
+        height: 650px;
+        .banner-left-content {
+            top: 30%;
+        }
+        .banner-right-content {
+            left: 27%;
+            img{
+                max-width: 70%;
+            }
+        }
+    }
+    .support-area .container .support-content {
+        text-align: center;
+        flex-direction: column;
+        .support-sub-title {
+            margin: auto;
+        }
+    }
+    app-display-area {
+        height: 460px;
+    }
+    .app-display-area .app-display-btn a {
+        margin-right: 1px;
+        font-size: 7px;
+        width: 94px;
+    }
+    footer .footer-top .col-sm-4 {
+        display: contents;
+    }
+    footer{
+        .footer-content4{
+            .row{
+                justify-content: center;
+            }
+        }
+    }
+    .app-display-area .app-headline {
+        max-width: 71%;
+        font-size: 18px;
+        margin: auto;
+        line-height: 25px;
+        padding-top: 39px;
+        padding-bottom: 25px;
+    }
+    .testimonial-area .review-title {
+        color: #1a264a;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .user-count-area .count-area .user-count {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .user-count-area .count-area .count-text {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .user-count-area .count-area .count-help {
+        padding: 0px 0 23px 0;
+        font-size: 11px;
+    }
+    .user-count-area .count-area a {
+        padding: 14px 41px;
+    }
+    .user-count-area .count-area a {
+        font-size: 14px;
+    }
+    .user-count-area {
+        height: 230px;
+    }
+    .explore-features-area .explore-content .explore-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .video-features-area .video-title-area .video-title {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .features-area .features-content .features-text .features-title {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    
 
+}
+@media (max-width: 430.98px) {
+    .home4-banner-area {
+        height: 560px;
+    }
+    
 
+}

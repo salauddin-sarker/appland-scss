@@ -49,7 +49,7 @@
         position: relative;
         top: 38%;
         left: 8%;
-        animation: rotateEarth 5s infinite;
+        animation: rotateEarth 7s infinite;
     }
 }
 
@@ -57,13 +57,16 @@
     0% {
       bottom: -3px
     }
-    8.33%, 25% {
+    25% {
       left: 14px
     }
-    33.33%, 50% {
-      top: 125px
+    50% {
+      top: 115px
     }
-    100%, 75% {
+    75% {
       right: 20px
+    }
+    100% {
+      right: 14px
     }
   }
