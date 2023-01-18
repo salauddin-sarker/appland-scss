@@ -3,59 +3,10 @@
 // X-Large devices (large desktops, less than 1400px)
 @media (max-width: 1399.98px) {
     // header
-    header{
-        .header-top{
-            .container-fluid{
-                .header-top .row{
-                    .blog-header-logo{
-                    }
-                    .header-logo{
-                        a{
-                            img{
-                            
-                            }
-                        }
-                    }
-                }
-            }
-            .main-nav{
-                ul{
-                    li{
-                        }
-                        a{
-                            font-size: 14px;
-                        }
-                    }
-                }
-            }
-            .get-now-btn {
-                a{
-                }
-                &:hover.get-now-btn a{
-                
-                }
-            
-            }
-    }
     // banner
     .home4-banner-area{
         height: 800px;
         background-size: cover;
-        .banner-left-content{
-            .banner-heading{
-            }
-            .banner-sub-heading{
-            }
-            .banner-btn{
-                .banner-btn-uniq{
-                    &:hover{
-                    }
-                }
-                // a{}
-                i{
-                }
-            }
-        }
         .banner-right-content{
             left: 3%;
         }
@@ -63,46 +14,16 @@
 
     .features-area{
         .features-content{
-        .features-text{
-            padding-top: 54px;
-            //     .features-image{
-            //         // img{
-
-            //         // }
-            //     }
-            //    .features-image2{
-            //     padding-left: 30px;
-            //    }
-        }
+            .features-text{
+                padding-top: 54px;
+            }
         }
         .features-content{
-            .features-image1{
-            }
             .features-text{
                 max-width: 100%;
                 padding-top: 100px;
-                .features-title{
             }
-            .features-text2{
-                a{
-
-                }
-            }
-            .freatures-subtitle{
-            }
-            a{
-               
-            }
-            
         }
-    }
-    
-
-
-
-
-
-
 
     }
 }
@@ -114,36 +35,18 @@
     // header
     header{
         .header-top{
-            .container-fluid{
-                .header-top .row{
-                    .blog-header-logo{
-                    }
-                    .header-logo{
-                        a{
-                            img{
-                            
-                            }
-                        }
-                    }
-                }
-            }
             .main-nav{
                 ul{
                     li{
                         padding: 25px 14px;
-                        }
-                        a{
-                        }
                     }
                 }
             }
+        }
             .get-now-btn {
                 a{
                     font-size: 14px;
                     padding: 9px 20px;
-                }
-                &:hover.get-now-btn a{
-                
                 }
             
             }
@@ -152,20 +55,9 @@
     .home4-banner-area{
         height: 700px;
         .banner-left-content{
-            .banner-heading{
-            }
             .banner-sub-heading{
                 font-size: 19px;
                 line-height: 31px;
-            }
-            .banner-btn{
-                .banner-btn-uniq{
-                    &:hover{
-                    }
-                }
-                // a{}
-                i{
-                }
             }
         }
         .banner-right-content{
@@ -189,14 +81,7 @@
             padding-bottom: 50px;
         .features-text{
             padding-top: 160px;
-            //     .features-image{
-            //         // img{
-
-            //         // }
-            //     }
-            //    .features-image2{
-            //     padding-left: 30px;
-            //    }
+            
         }
         }
         .features-content{
@@ -212,18 +97,12 @@
             }
             .features-text2{
                 padding: 67px 0px 0 17px;
-                a{
-
-                }
             }
             .freatures-subtitle{
                 font-size: 14px;
                 line-height: 26px;
                 margin-bottom: 52px;
                 padding-right: 36px; 
-            }
-            a{
-               
             }
             
         }
@@ -252,29 +131,19 @@
     }
     .explore-features-area{
         padding: 32px 0 0px 0;
-        .explore-content{
-            .explore-title{
-            }
-            .explore-sub-title{
-            }
-
-        }
+    }
         .explore-items{
             padding: 0 35px;
             .explore-single-item{
                 padding-bottom: 27px;
-                .explore-icon{
-                }
+                
                 .explore-text{
-                    .explore-name{
-                    }
                     .explore-name-bio{
                         padding-right: 0px;
                     }
                 }
             }
         }
-    }
     // user count
     .user-count-area{
         height: 290px;
@@ -291,8 +160,7 @@
             .count-help{
                 padding: 0px 0 47px 0;
             }
-            a{
-            }
+            
 
         }
     }
@@ -321,17 +189,6 @@
                 }
                 .client-details{
                     display: flex;
-                    .client-image{
-                    }
-                    .client-bio{
-                        // .client-name{}
-                        .client-status{
-                            
-                            a{
-                                
-                            }
-                        }
-                    }
                 }
             }
         }
@@ -363,10 +220,6 @@
                 padding: 0;
                 transition: all .3s;
                 width: 152px;
-                &:hover{
-                    color: $white-color;
-                    background-color: $btnbg-color;
-                }
                 i{
                     padding-right: 16px;
                 }
@@ -377,8 +230,7 @@
         .footer-top{
             padding: 24px 0 18px 0;
             .col-sm-4{
-                
-            margin: 0;
+                margin: 0;
             }
             .footer-content1{
                 .footer-text{
@@ -408,49 +260,28 @@
             }
         }
     }
-
-
-
-
 }
-    
 
 
 // // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
     header{
         .header-top{
-            .container-fluid{
-                .header-top .row{
-                    .blog-header-logo{
-                    }
-                    .header-logo{
-                        a{
-                            img{
-                              
-                            }
-                        }
-                    }
-                }
-            }
             .main-nav{
                 ul{
                     li{
-                        padding: 57px 13px;
+                        padding: 20px 13px;
                         a{
                             font-size: 12px;
                         }
-                        }
-                        }
+                    }
+                }
             }
             .get-now-btn {
                 a{
                     font-size: 12px;
                     padding: 7px 14px;
                     margin-left: 0px;
-                }
-                &:hover.get-now-btn a{
-                   
                 }
             }
         }
@@ -477,18 +308,13 @@
                         padding: 13px 18px;
                         margin-right: 0px;
                         font-size: 14px;
-                        &:hover{
-                        }
                     }
-                    // a{}
+    
                     i{
                         font-size: 18px;
                         padding: 0 10px;
                     }
                 }
-            }
-            .banner-right-content{
-                
             }
     }
     .support-area {
@@ -515,14 +341,6 @@
             padding-bottom: 50px;
         .features-text{
             padding-top: 160px;
-            //     .features-image{
-            //         // img{
-
-            //         // }
-            //     }
-            //    .features-image2{
-            //     padding-left: 30px;
-            //    }
         }
         }
         .features-content{
@@ -534,43 +352,21 @@
             }
             .features-text{
                 padding-top: 0px;
-                .features-title{
-                }
             }
             .features-text2{
                 padding: 0px 0px 0 17px;
-                a{
-
-                }
             }
-            .freatures-subtitle{ 
-            }
-            a{
-               
-            }
-            
         }
     }
     // video 
     .video-features-area{
-        .video-title-area{
-            .video-title{
-            }
-            .video-sub-title{
-                
-            }
-        }
         .video-player-content{
             .o-video{
-                &:hover:before{
-                }
                 &:before{
                     background-image: url("../images/blog/video.png");
                     background-repeat: no-repeat;
                     background-position: center;
                     background-size: cover;
-                }
-                iframe{
                 }
             }
         }
@@ -621,41 +417,6 @@
 }
 // // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
-    // header
-    header{
-        .header-top{
-            .container-fluid{
-                .header-top .row{
-                    .blog-header-logo{
-                    }
-                    .header-logo{
-                        a{
-                            img{
-                              
-                            }
-                        }
-                    }
-                }
-            }
-            .main-nav{
-                ul{
-                    li{
-                        a{
-                        }
-                        }
-                        }
-            }
-            .get-now-btn {
-                a{
-
-                }
-                &:hover.get-now-btn a{
-                   
-                }
-            }
-        }
-    }
-            
          // banner
     .home4-banner-area{
         height: 411px;
@@ -670,15 +431,7 @@
                     line-height: 22px;
                     padding-right: 0px;
                 }
-                .banner-btn{
-                    .banner-btn-uniq{
-                        &:hover{
-                        }
-                    }
-                    // a{}
-                    i{
-                    }
-                }
+
             }
             .banner-right-content{
                 top: 25%;
@@ -722,7 +475,6 @@
         .count-area {
             a {
                 padding: 20px 80px;
-
             }
         }
     }
