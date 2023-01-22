@@ -67,3 +67,48 @@ header{
         }
     }
 }
+header.home5{
+    .header-top{
+        .container-fluid{
+            .header-top .row{
+                .header-logo{
+                    a{
+                        img{
+                            max-width: 100px;
+                        }
+                    }
+                }
+            }
+        }
+        .main-nav{
+            ul{
+                li{
+                    &:hover a{
+                        color: $btnbg-color;
+                    }
+                    &:hover a:before{
+                        transform: scaleX(1);
+                    }
+                    a{
+                        color: $dark-color;
+                        &:before{
+                            background-color: $btnbg-color;
+                        }
+                    }
+                }
+            }
+        }
+        .get-now-btn {
+            a{
+                @include global-btn;
+                color: $btnbg-color;
+                border-color: $btnbg-color;
+            }
+            &:hover.get-now-btn a{
+                background-color: $btnbg-color;
+                color: $white-color;
+            }
+           
+        }
+    }
+}

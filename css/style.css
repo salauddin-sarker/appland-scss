@@ -141,6 +141,37 @@ header .header-top .get-now-btn:hover.get-now-btn a {
   color: #000000;
 }
 
+header.home5 .header-top .container-fluid .header-top .row .header-logo a img {
+  max-width: 100px;
+}
+header.home5 .header-top .main-nav ul li:hover a {
+  color: #1ba555;
+}
+header.home5 .header-top .main-nav ul li:hover a:before {
+  transform: scaleX(1);
+}
+header.home5 .header-top .main-nav ul li a {
+  color: #000000;
+}
+header.home5 .header-top .main-nav ul li a:before {
+  background-color: #1ba555;
+}
+header.home5 .header-top .get-now-btn a {
+  border-radius: 30px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 9px 36px;
+  transition: all 0.5s;
+  color: #1ba555;
+  border-color: #1ba555;
+}
+header.home5 .header-top .get-now-btn:hover.get-now-btn a {
+  background-color: #1ba555;
+  color: #ffffff;
+}
+
 .home4-banner-area {
   background-image: url("../images/banner/home4-banner.png");
   background-size: contain;
@@ -198,15 +229,54 @@ header .header-top .get-now-btn:hover.get-now-btn a {
           animation: rotateEarth 7s infinite;
 }
 
+.home5 {
+  background-image: none;
+}
+.home5 .banner-left-content .banner-heading {
+  color: #000000;
+}
+.home5 .banner-left-content .banner-sub-heading {
+  color: #000000;
+}
+.home5 .banner-left-content .banner-btn .banner-btn-uniq {
+  border-radius: 30px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 9px 36px;
+  transition: all 0.5s;
+  border-color: #1ba555;
+  color: #1ba555;
+  padding: 20px 42px;
+}
+.home5 .banner-left-content .banner-btn .banner-btn-uniq:hover {
+  background-color: #1ba555;
+  color: #ffffff;
+  border: 1px solid transparent;
+}
+.home5 .banner-left-content .banner-btn i {
+  color: #ffffff;
+  font-size: 30px;
+  padding: 0 18px;
+}
+.home5 .banner-right-content {
+  position: relative;
+  top: 38%;
+  left: 8%;
+  -webkit-animation: rotateEarth 7s infinite;
+          animation: rotateEarth 7s infinite;
+}
+
 @-webkit-keyframes rotateEarth {
   0% {
-    bottom: -3px;
+    bottom: -1px;
   }
   25% {
     left: 14px;
   }
   50% {
-    top: 115px;
+    top: 120px;
   }
   75% {
     right: 20px;
@@ -218,13 +288,13 @@ header .header-top .get-now-btn:hover.get-now-btn a {
 
 @keyframes rotateEarth {
   0% {
-    bottom: -3px;
+    bottom: -1px;
   }
   25% {
     left: 14px;
   }
   50% {
-    top: 115px;
+    top: 120px;
   }
   75% {
     right: 20px;
@@ -671,6 +741,97 @@ header .header-top .get-now-btn:hover.get-now-btn a {
   color: #585867;
 }
 
+/* ==========newsletter-area ========== */
+.newsletter-area {
+  background-image: url(../images/banner/newsbg.png);
+  padding-bottom: 145px;
+  padding-top: 0px !important;
+  text-align: center;
+}
+.newsletter-area .section-title {
+  font-size: 35px;
+  line-height: 60px;
+  margin-bottom: 46px;
+  padding-top: 140px;
+}
+.newsletter-area .newsletter-input {
+  text-align: center;
+  position: relative;
+}
+.newsletter-area .newsletter-input input {
+  border: 1px solid #ffffff;
+  border-radius: 40px;
+  background-color: transparent;
+  min-width: 500px;
+  padding: 17px 26px;
+}
+.newsletter-area .newsletter-input input::-moz-placeholder {
+  color: #ffffff;
+}
+.newsletter-area .newsletter-input input:-ms-input-placeholder {
+  color: #ffffff;
+}
+.newsletter-area .newsletter-input input::placeholder {
+  color: #ffffff;
+}
+.newsletter-area .newsletter-input .submit-btn {
+  background-color: #ffffff;
+  color: #1ba555;
+  font-weight: bold;
+  margin-left: -74px;
+  min-width: 200px !important;
+  padding: 17px 26px;
+  text-transform: uppercase;
+}
+
+.blog-area {
+  padding: 102px 0 114px 0;
+}
+.blog-area .section-title {
+  text-align: center;
+}
+.blog-area .section-title .main-heading {
+  color: #1a264a;
+  font-size: 35px;
+  line-height: 60px;
+  padding-bottom: 10px;
+}
+.blog-area .section-title .sub-heading {
+  font-size: 16px;
+  line-height: 28px;
+  max-width: 555px;
+  margin: auto;
+  padding-bottom: 70px;
+}
+.blog-area .single-blog-content .blog-image img {
+  border-radius: 5px;
+}
+.blog-area .single-blog-content .blog-pdetails .home5-blog-title {
+  color: #1a264a;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 35px;
+  padding-top: 28px;
+  padding-bottom: 10px;
+}
+.blog-area .single-blog-content .blog-pdetails p {
+  color: #282835;
+  font-size: 15px;
+  line-height: 28px;
+  padding-right: 52px;
+}
+.blog-area .single-blog-content .blog-pdetails .red-more-btn a {
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+.blog-area .single-blog-content .blog-pdetails .red-more-btn a:hover {
+  padding-right: 10px;
+}
+.blog-area .single-blog-content .blog-pdetails .red-more-btn i {
+  font-size: 14px;
+}
+
 @media (max-width: 1399.98px) {
   .home4-banner-area {
     height: 800px;
@@ -872,16 +1033,16 @@ header .header-top .get-now-btn:hover.get-now-btn a {
   }
 }
 @media (max-width: 991.98px) {
-  header .header-top .main-nav ul li {
-    padding: 20px 13px;
+  header.home5 .header-top .main-nav ul li {
+    padding: 20px 9px;
   }
-  header .header-top .main-nav ul li a {
-    font-size: 12px;
+  header.home5 .header-top .main-nav ul li a {
+    font-size: 14px;
   }
-  header .header-top .get-now-btn a {
-    font-size: 12px;
+  header.home5 .header-top .get-now-btn a {
+    font-size: 14px;
     padding: 7px 14px;
-    margin-left: 0px;
+    margin-left: 10px;
   }
   .home4-banner-area {
     height: 500px;
@@ -1098,5 +1259,26 @@ header .header-top .get-now-btn:hover.get-now-btn a {
 @media (max-width: 430.98px) {
   .home4-banner-area {
     height: 560px;
+  }
+}
+/* ==========newsletter-area ========== */
+@media (max-width: 767.98px) {
+  .newsletter-area {
+    padding-bottom: 45px;
+    padding-top: 0px !important;
+    background-size: contain;
+  }
+  .newsletter-area .section-title {
+    margin-bottom: 30px;
+    padding-top: 21px;
+  }
+  .newsletter-area .newsletter-input input {
+    min-width: 288px;
+    padding: 12px 15px;
+  }
+  .newsletter-area .newsletter-input .submit-btn {
+    margin-left: -92px;
+    min-width: 147px !important;
+    padding: 12px 0px;
   }
 }/*# sourceMappingURL=style.css.map */

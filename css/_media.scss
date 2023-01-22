@@ -265,23 +265,23 @@
 
 // // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
-    header{
+    header.home5{
         .header-top{
             .main-nav{
                 ul{
                     li{
-                        padding: 20px 13px;
+                        padding: 20px 9px;
                         a{
-                            font-size: 12px;
+                            font-size: 14px;
                         }
                     }
                 }
             }
             .get-now-btn {
                 a{
-                    font-size: 12px;
+                    font-size: 14px;
                     padding: 7px 14px;
-                    margin-left: 0px;
+                    margin-left: 10px;
                 }
             }
         }
@@ -608,6 +608,27 @@
     .home4-banner-area {
         height: 560px;
     }
-    
-
+}
+/* ==========newsletter-area ========== */
+@media (max-width: 767.98px) {
+.newsletter-area {
+    padding-bottom: 45px;
+    padding-top: 0px !important;
+    background-size: contain;
+    .section-title {
+        margin-bottom: 30px;
+        padding-top: 21px;
+    }
+    .newsletter-input{
+        input {
+            min-width: 288px;
+            padding: 12px 15px;
+        }
+        .submit-btn {
+            margin-left: -92px;
+            min-width: 147px !important;
+            padding: 12px 0px;
+        }
+    }
+}
 }

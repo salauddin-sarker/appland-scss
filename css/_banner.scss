@@ -52,16 +52,52 @@
         animation: rotateEarth 7s infinite;
     }
 }
+.home5{
+  background-image: none;
+  .banner-left-content{
+    .banner-heading{
+        color: $dark-color;
+    }
+    .banner-sub-heading{
+        color: $dark-color;
+    }
+    .banner-btn{
+        .banner-btn-uniq{
+            @include global-btn;
+            border-color: $btnbg-color;
+            color: $btnbg-color;
+            padding: 20px 42px;
+            &:hover{
+                background-color: $btnbg-color;
+                color: $white-color;
+                border: 1px solid transparent;
+            }
+        }
+        // a{}
+        i{
+            color: $white-color;
+            font-size: $fs30;
+            padding: 0 18px;
+        }
+    }
+}
+.banner-right-content{
+    position: relative;
+    top: 38%;
+    left: 8%;
+    animation: rotateEarth 7s infinite;
+}
+}
 
 @keyframes rotateEarth {
     0% {
-      bottom: -3px
+      bottom: -1px
     }
     25% {
       left: 14px
     }
     50% {
-      top: 115px
+      top: 120px
     }
     75% {
       right: 20px
