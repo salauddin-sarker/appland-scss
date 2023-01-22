@@ -680,9 +680,6 @@ header .header-top .get-now-btn:hover.get-now-btn a {
 }
 
 @media (max-width: 1399.98px) {
-  header .header-top .main-nav ul a {
-    font-size: 14px;
-  }
   .home4-banner-area {
     height: 800px;
     background-size: cover;
@@ -773,13 +770,13 @@ header .header-top .get-now-btn:hover.get-now-btn a {
   .explore-features-area {
     padding: 32px 0 0px 0;
   }
-  .explore-features-area .explore-items {
+  .explore-items {
     padding: 0 35px;
   }
-  .explore-features-area .explore-items .explore-single-item {
+  .explore-items .explore-single-item {
     padding-bottom: 27px;
   }
-  .explore-features-area .explore-items .explore-single-item .explore-text .explore-name-bio {
+  .explore-items .explore-single-item .explore-text .explore-name-bio {
     padding-right: 0px;
   }
   .user-count-area {
@@ -861,10 +858,6 @@ header .header-top .get-now-btn:hover.get-now-btn a {
     transition: all 0.3s;
     width: 152px;
   }
-  .app-display-area .app-display-btn a:hover {
-    color: #ffffff;
-    background-color: #1ba555;
-  }
   .app-display-area .app-display-btn a i {
     padding-right: 16px;
   }
@@ -888,7 +881,7 @@ header .header-top .get-now-btn:hover.get-now-btn a {
 }
 @media (max-width: 991.98px) {
   header .header-top .main-nav ul li {
-    padding: 57px 13px;
+    padding: 20px 13px;
   }
   header .header-top .main-nav ul li a {
     font-size: 12px;
