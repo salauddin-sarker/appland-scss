@@ -56,3 +56,16 @@ function myFunction() {
 let changeIcon =function(icon){
   icon.classList.toggle('fa-times')
 }
+
+
+// video-overly
+
+function bgoverlyFunction1() {
+  document.getElementById("bg-over1").style.display = "none";
+}
+function bgoverlyFunction2() {
+  document.getElementById("bg-over2").style.display = "none";
+}
+function bgoverlyFunction3() {
+  document.getElementById("bg-over3").style.display = "none";
+}

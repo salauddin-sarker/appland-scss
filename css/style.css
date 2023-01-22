@@ -341,20 +341,12 @@ header .header-top .get-now-btn:hover.get-now-btn a {
 .video-features-area .video-player-content .o-video {
   position: relative;
 }
-.video-features-area .video-player-content .o-video:hover:before {
-  opacity: 0;
-}
-.video-features-area .video-player-content .o-video:before {
-  background-image: url("../images/blog/video.png");
-  top: 0;
-  content: "";
-  height: 97%;
-  left: 0;
+.video-features-area .video-player-content .o-video #bg-over1, .video-features-area .video-player-content .o-video #bg-over2, .video-features-area .video-player-content .o-video #bg-over3 {
   position: absolute;
-  transition: all 0.7s;
+  top: 0;
+  left: 0;
   width: 100%;
-  z-index: 1;
-  opacity: 1;
+  height: 98%;
 }
 .video-features-area .video-player-content .o-video iframe {
   border-radius: 5px;
