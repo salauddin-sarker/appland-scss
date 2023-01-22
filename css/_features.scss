@@ -5,14 +5,6 @@
         padding-bottom: 88px;
        .features-text{
         padding-top: 160px;
-        //     .features-image{
-        //         // img{
-
-        //         // }
-        //     }
-        //    .features-image2{
-        //     padding-left: 30px;
-        //    }
        }
     }
     .features-content{
@@ -74,22 +66,15 @@
         }
     }
     .video-player-content{
+        
         .o-video{
             position: relative;
-            &:hover:before{
-                opacity: 0;
-            }
-            &:before{
-                background-image: url("../images/blog/video.png");
-                top: 0;
-                content: "";
-                height: 97%;
-                left: 0;
+            #bg-over1,#bg-over2,#bg-over3{
                 position: absolute;
-                transition: all .7s;
+                top: 0;
+                left: 0;
                 width: 100%;
-                z-index: 1;
-                opacity: 1;
+                height: 98%;
             }
             iframe{
                 border-radius: 5px;
