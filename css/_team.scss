@@ -1,0 +1,7 @@
+// team
+.home6.team-area{
+    background-color: $videobg-color;
+    .team-content{
+        @include team-content;
+    }
+}

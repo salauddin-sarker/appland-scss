@@ -619,7 +619,11 @@
         font-size: 24px;
         line-height: 34px;
     }
-    
+    .home4-banner-area.home6 .banner-left-content .banner-btn .banner-btn-uniq {
+        font-size: 14px ;
+        padding: 9px 36px;
+        padding: 16px 34px;
+    }
 
 }
 @media (max-width: 430.98px) {
@@ -629,24 +633,27 @@
 }
 /* ==========newsletter-area ========== */
 @media (max-width: 767.98px) {
-.newsletter-area {
-    padding-bottom: 45px;
-    padding-top: 0px !important;
-    background-size: contain;
-    .section-title {
+    .newsletter-area {
+        padding-bottom: 45px;
+        padding-top: 0px !important;
+        background-size: contain;
+        .section-title {
+            margin-bottom: 30px;
+            padding-top: 21px;
+        }
+        .newsletter-input{
+            input {
+                min-width: 288px;
+                padding: 12px 15px;
+            }
+            .submit-btn {
+                margin-left: -92px;
+                min-width: 147px !important;
+                padding: 12px 0px;
+            }
+        }
+    }
+    .home6.team-area .team-content .team-single-content {
         margin-bottom: 30px;
-        padding-top: 21px;
     }
-    .newsletter-input{
-        input {
-            min-width: 288px;
-            padding: 12px 15px;
-        }
-        .submit-btn {
-            margin-left: -92px;
-            min-width: 147px !important;
-            padding: 12px 0px;
-        }
-    }
-}
 }

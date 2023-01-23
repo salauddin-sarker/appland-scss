@@ -79,3 +79,52 @@ img{
     padding-bottom: 34px;
 
 }
+
+@mixin team-content{
+    .team-single-content{
+        text-align: center;
+        background-color: $white-color;
+        .team-image{
+            img{
+                width: 100%;
+            }
+        }
+        .team-details{
+            .team-name{
+                color: $title-color;
+                font-size: 18px;
+                font-weight: normal;
+                line-height: 20px;
+                padding-top: 38px;
+                text-transform: capitalize;
+            }
+            .job-title{
+                color: $gray-color;
+                display: block;
+                font-size: 15px;
+                line-height: 15px;
+                padding-bottom: 19px;
+                text-transform: capitalize;
+            }
+        }
+        .team-text{
+            color: $para-color;
+            font-size: 15px;
+            line-height: 29px;
+            max-width: 245px;
+            margin: auto;
+        }
+        .team-social-link{
+            padding-top: 17px;
+            padding-bottom: 33px;
+            i{
+                font-size: 22px;
+                padding: 5px 7px;
+                transition:  all .3s;
+                &:hover{
+                    color: $home6-color;
+                }
+            }
+        }
+    }
+}
