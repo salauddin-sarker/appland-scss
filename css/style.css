@@ -270,13 +270,13 @@ header.home5 .header-top .get-now-btn:hover.get-now-btn a {
 
 @-webkit-keyframes rotateEarth {
   0% {
-    bottom: -1px;
+    bottom: 8px;
   }
   25% {
     left: 14px;
   }
   50% {
-    top: 120px;
+    top: 110px;
   }
   75% {
     right: 20px;
@@ -288,13 +288,13 @@ header.home5 .header-top .get-now-btn:hover.get-now-btn a {
 
 @keyframes rotateEarth {
   0% {
-    bottom: -1px;
+    bottom: 8px;
   }
   25% {
     left: 14px;
   }
   50% {
-    top: 120px;
+    top: 110px;
   }
   75% {
     right: 20px;
@@ -354,7 +354,7 @@ header.home5 .header-top .get-now-btn:hover.get-now-btn a {
   padding-bottom: 9px;
 }
 .features-area .features-content .features-text2 {
-  padding: 111px 84px 0 40px;
+  padding: 111px 155px 0 244px;
   max-width: unset;
 }
 .features-area .features-content .features-text2 a {
@@ -847,6 +847,10 @@ header.home5 .header-top .get-now-btn:hover.get-now-btn a {
     max-width: 100%;
     padding-top: 100px;
   }
+  .features-area .features-content .features-text2 {
+    padding: 111px 47px 0 108px;
+    max-width: unset;
+  }
 }
 @media (max-width: 1199.98px) {
   header .header-top .main-nav ul li {
@@ -1109,6 +1113,9 @@ header.home5 .header-top .get-now-btn:hover.get-now-btn a {
     margin: auto;
     padding-bottom: 40px;
   }
+  .blog-area .single-blog-content .blog-pdetails p {
+    padding-right: 0px;
+  }
   .testimonial-area .owl-item.active {
     margin-right: 0px !important;
     margin-left: 2px;
@@ -1155,6 +1162,15 @@ header.home5 .header-top .get-now-btn:hover.get-now-btn a {
     max-width: 60%;
     margin: auto;
   }
+  .red-more-btn {
+    margin-bottom: 20px;
+  }
+  .blog-area {
+    padding: 25px 0 10px 0;
+  }
+  .blog-area .section-title .sub-heading {
+    padding-bottom: 30px;
+  }
   .user-count-area .count-area a {
     padding: 20px 80px;
   }
@@ -1176,13 +1192,16 @@ header.home5 .header-top .get-now-btn:hover.get-now-btn a {
 }
 @media (max-width: 575.98px) {
   .home4-banner-area {
-    height: 650px;
+    height: 575px;
   }
   .home4-banner-area .banner-left-content {
     top: 30%;
   }
   .home4-banner-area .banner-right-content {
-    left: 27%;
+    left: 12%;
+    top: 50%;
+    -webkit-animation: none;
+            animation: none;
   }
   .home4-banner-area .banner-right-content img {
     max-width: 70%;
