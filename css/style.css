@@ -176,7 +176,7 @@ header.home5 .header-top .get-now-btn:hover.get-now-btn a {
   background-image: url("../images/banner/home4-banner.png");
   background-size: contain;
   background-position: center;
-  height: 869px;
+  min-height: 869px;
   width: 100%;
 }
 .home4-banner-area .banner-left-content {
