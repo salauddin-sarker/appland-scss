@@ -1,4 +1,4 @@
-// header
+// header4
 header{
     .header-top{
     left: 0;
@@ -67,6 +67,7 @@ header{
         }
     }
 }
+// home5
 header.home5{
     .header-top{
         .container-fluid{
@@ -107,6 +108,56 @@ header.home5{
             &:hover.get-now-btn a{
                 background-color: $btnbg-color;
                 color: $white-color;
+            }
+           
+        }
+    }
+}
+// home6
+header.home6{
+    .header-top{
+        .container-fluid{
+            .header-top .row{
+                .blog-header-logo{
+                }
+                .header-logo{
+                    a{
+                        img{
+                            max-width: 100px;
+                        }
+                    }
+                }
+            }
+        }
+        .main-nav{
+            ul{
+                li{
+                    &:hover a{
+                        color: $home6-color !important;
+                    }
+                    &:hover a:before{
+                        transform: scaleX(1);
+                    }
+                    a{
+                        color: $dark-color;
+                        &:before{
+                            background-color: $home6-color;
+                        }
+                    }
+                }
+            }
+        }
+        .get-now-btn {
+            align-items: center;
+            display: flex;
+            a{
+                @include global-btn;
+                border-color: $home6-color !important;
+                color: $home6-color !important;
+            }
+            &:hover.get-now-btn a{
+                background-color:  $home6-color;
+                color: $white-color !important;
             }
            
         }

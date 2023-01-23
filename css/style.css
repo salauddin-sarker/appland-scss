@@ -172,11 +172,46 @@ header.home5 .header-top .get-now-btn:hover.get-now-btn a {
   color: #ffffff;
 }
 
+header.home6 .header-top .container-fluid .header-top .row .header-logo a img {
+  max-width: 100px;
+}
+header.home6 .header-top .main-nav ul li:hover a {
+  color: #246efb !important;
+}
+header.home6 .header-top .main-nav ul li:hover a:before {
+  transform: scaleX(1);
+}
+header.home6 .header-top .main-nav ul li a {
+  color: #000000;
+}
+header.home6 .header-top .main-nav ul li a:before {
+  background-color: #246efb;
+}
+header.home6 .header-top .get-now-btn {
+  align-items: center;
+  display: flex;
+}
+header.home6 .header-top .get-now-btn a {
+  border-radius: 30px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 9px 36px;
+  transition: all 0.5s;
+  border-color: #246efb !important;
+  color: #246efb !important;
+}
+header.home6 .header-top .get-now-btn:hover.get-now-btn a {
+  background-color: #246efb;
+  color: #ffffff !important;
+}
+
 .home4-banner-area {
   background-image: url("../images/banner/home4-banner.png");
   background-size: contain;
   background-position: center;
-  min-height: 869px;
+  height: 100vh;
   width: 100%;
 }
 .home4-banner-area .banner-left-content {
@@ -206,20 +241,20 @@ header.home5 .header-top .get-now-btn:hover.get-now-btn a {
   font-weight: bold;
   padding: 9px 36px;
   transition: all 0.5s;
+  color: #246efb !important;
   padding: 21px 41px;
-  text-transform: uppercase;
-  margin-right: 17px;
-  transition: all 0.3s;
 }
 .home4-banner-area .banner-left-content .banner-btn .banner-btn-uniq:hover {
   background-color: #ffffff;
-  color: #000000;
-  border: 1px solid transparent;
+  color: #ffffff !important;
 }
 .home4-banner-area .banner-left-content .banner-btn i {
-  color: #ffffff;
+  color: #000000 !important;
   font-size: 30px;
   padding: 0 18px;
+}
+.home4-banner-area .banner-left-content .banner-btn i:hover {
+  color: #246efb !important;
 }
 .home4-banner-area .banner-right-content {
   position: relative;
@@ -229,16 +264,16 @@ header.home5 .header-top .get-now-btn:hover.get-now-btn a {
           animation: rotateEarth 7s infinite;
 }
 
-.home5 {
+.home4-banner-area.home5 {
   background-image: none;
 }
-.home5 .banner-left-content .banner-heading {
+.home4-banner-area.home5 .banner-left-content .banner-heading {
   color: #000000;
 }
-.home5 .banner-left-content .banner-sub-heading {
+.home4-banner-area.home5 .banner-left-content .banner-sub-heading {
   color: #000000;
 }
-.home5 .banner-left-content .banner-btn .banner-btn-uniq {
+.home4-banner-area.home5 .banner-left-content .banner-btn .banner-btn-uniq {
   border-radius: 30px;
   border: 1px solid #ffffff;
   color: #ffffff;
@@ -250,17 +285,59 @@ header.home5 .header-top .get-now-btn:hover.get-now-btn a {
   color: #1ba555;
   padding: 20px 42px;
 }
-.home5 .banner-left-content .banner-btn .banner-btn-uniq:hover {
+.home4-banner-area.home5 .banner-left-content .banner-btn .banner-btn-uniq:hover {
   background-color: #1ba555;
   color: #ffffff;
   border: 1px solid transparent;
 }
-.home5 .banner-left-content .banner-btn i {
+.home4-banner-area.home5 .banner-left-content .banner-btn i {
   color: #ffffff;
   font-size: 30px;
   padding: 0 18px;
 }
-.home5 .banner-right-content {
+.home4-banner-area.home5 .banner-right-content {
+  position: relative;
+  top: 38%;
+  left: 8%;
+  -webkit-animation: rotateEarth 7s infinite;
+          animation: rotateEarth 7s infinite;
+}
+
+.home4-banner-area.home6 {
+  background-image: url("../images/banner/home6-bannerbg.png");
+}
+.home4-banner-area.home6 a {
+  color: #000000 !important;
+}
+.home4-banner-area.home6 .banner-left-content .banner-heading {
+  color: #000000;
+}
+.home4-banner-area.home6 .banner-left-content .banner-sub-heading {
+  color: #000000;
+}
+.home4-banner-area.home6 .banner-left-content .banner-btn .banner-btn-uniq {
+  border-radius: 30px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 9px 36px;
+  transition: all 0.5s;
+  border-color: #246efb;
+  color: #000000;
+  padding: 20px 42px;
+}
+.home4-banner-area.home6 .banner-left-content .banner-btn .banner-btn-uniq:hover {
+  background-color: #246efb;
+  color: #ffffff;
+  border: 1px solid transparent;
+}
+.home4-banner-area.home6 .banner-left-content .banner-btn i {
+  color: #ffffff;
+  font-size: 30px;
+  padding: 0 18px;
+}
+.home4-banner-area.home6 .banner-right-content {
   position: relative;
   top: 38%;
   left: 8%;
@@ -276,7 +353,7 @@ header.home5 .header-top .get-now-btn:hover.get-now-btn a {
     left: 14px;
   }
   50% {
-    top: 110px;
+    top: 130px;
   }
   75% {
     right: 20px;
@@ -294,7 +371,7 @@ header.home5 .header-top .get-now-btn:hover.get-now-btn a {
     left: 14px;
   }
   50% {
-    top: 110px;
+    top: 130px;
   }
   75% {
     right: 20px;
@@ -333,6 +410,7 @@ header.home5 .header-top .get-now-btn:hover.get-now-btn a {
 
 .features-area {
   padding: 121px 0 33px 0;
+  background-color: white !important;
 }
 .features-area .features-content {
   padding-bottom: 88px;
@@ -461,6 +539,30 @@ header.home5 .header-top .get-now-btn:hover.get-now-btn a {
   padding-right: 95px;
 }
 
+.features-area.home6 .features-content .features-text a {
+  border-radius: 30px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 9px 36px;
+  transition: all 0.5s;
+  box-shadow: none !important;
+  color: #246efb !important;
+  background-color: transparent !important;
+  border: 1px solid #246efb !important;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 50px -12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 16px 47px;
+  transition: all 0.3s;
+}
+.features-area.home6 .features-content .features-text a:hover {
+  color: #ffffff !important;
+  border: 1px solid transparent;
+  background-color: #246efb !important;
+}
+
 .user-count-area {
   background-image: url("../images/banner/userbg.png");
   background-size: cover;
@@ -507,6 +609,10 @@ header.home5 .header-top .get-now-btn:hover.get-now-btn a {
   border: 1px solid #ffffff;
   background-color: transparent;
   color: #ffffff;
+}
+
+.user-count-area.home6 {
+  background-image: url("../images/blog/home6-user.png");
 }
 
 .testimonial-area {
@@ -565,6 +671,10 @@ header.home5 .header-top .get-now-btn:hover.get-now-btn a {
 }
 .testimonial-area .owl-theme .owl-dots .owl-dot.active span {
   background-color: #1ba555;
+}
+
+.testimonial-area.home6 .client-slider .testimonial-content::after {
+  color: #246efb;
 }
 
 .app-display-area {

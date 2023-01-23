@@ -1,6 +1,7 @@
 // features
 .features-area{
     padding: 121px 0 33px 0;
+    background-color: white !important;
     .features-content{
         padding-bottom: 88px;
        .features-text{
@@ -96,12 +97,6 @@
 }
 .explore-features-area{
     padding: 95px 0 29px 0;
-    // .explore-content{
-    //     .explore-title{
-
-    //     }
-    //     .explore-sub-title{}
-    // }
     .explore-items{
         .explore-single-item{
             display: flex;
@@ -126,4 +121,31 @@
         }
     }
 }
+// home6
 
+.features-area.home6{
+    .features-content{
+        .features-text{
+            a{
+                @include global-btn;
+                box-shadow: none !important; 
+                color: $home6-color !important;
+                background-color: transparent !important;
+                border: 1px solid $home6-color !important;
+                box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 50px -12px;
+                font-weight: 400;
+                text-transform: uppercase;
+                padding: 16px 47px;
+                transition: all .3s;
+                &:hover{
+                    color: $white-color !important;
+                    border: 1px solid transparent;
+                    background-color: $home6-color !important;
+                    
+                }
+            }
+        }
+        
+        
+    }
+}

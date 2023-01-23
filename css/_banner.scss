@@ -3,7 +3,7 @@
     background-image: url('../images/banner/home4-banner.png');
     background-size: contain;
     background-position: center;
-    min-height: 869px;
+    height: 100vh;
     width: 100%;
     .banner-left-content{
         // position: absolute;
@@ -27,21 +27,21 @@
         .banner-btn{
             .banner-btn-uniq{
                 @include global-btn;
+                color: $home6-color !important;
                 padding: 21px 41px;
-                text-transform: uppercase;
-                margin-right: 17px;
-                transition: all .3s;
                 &:hover{
                     background-color: $white-color;
-                    color: $dark-color;
-                    border: 1px solid transparent;
+                    color: $white-color !important;
                 }
             }
             // a{}
             i{
-                color: $white-color;
+                color: $dark-color !important;
                 font-size: $fs30;
                 padding: 0 18px;
+                &:hover{
+                    color: $home6-color !important;
+                }
             }
         }
     }
@@ -52,7 +52,7 @@
         animation: rotateEarth 7s infinite;
     }
 }
-.home5{
+.home4-banner-area.home5{
   background-image: none;
   .banner-left-content{
     .banner-heading{
@@ -88,6 +88,45 @@
     animation: rotateEarth 7s infinite;
 }
 }
+.home4-banner-area.home6{
+    background-image: url('../images/banner/home6-bannerbg.png');
+    a{
+        color: $dark-color !important;
+    }
+    .banner-left-content{
+      .banner-heading{
+          color: $dark-color;
+      }
+      .banner-sub-heading{
+          color: $dark-color;
+      }
+      .banner-btn{
+          .banner-btn-uniq{
+              @include global-btn;
+              border-color: $home6-color;
+              color: $dark-color;
+              padding: 20px 42px;
+              &:hover{
+                  background-color: $home6-color;
+                  color: $white-color;
+                  border: 1px solid transparent;
+              }
+          }
+          // a{}
+          i{
+              color: $white-color;
+              font-size: $fs30;
+              padding: 0 18px;
+          }
+      }
+  }
+  .banner-right-content{
+      position: relative;
+      top: 38%;
+      left: 8%;
+      animation: rotateEarth 7s infinite;
+  }
+  }
 
 @keyframes rotateEarth {
     0% {
@@ -97,7 +136,7 @@
       left: 14px
     }
     50% {
-      top: 110px
+      top: 130px
     }
     75% {
       right: 20px
