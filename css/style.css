@@ -345,6 +345,72 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
           animation: rotateEarth 7s infinite;
 }
 
+.banner-area.index2.home7 {
+  background-image: url("../images/banner/home7-bannerbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 80px;
+}
+.banner-area.index2.home7 .banner-left {
+  margin-top: 35%;
+  margin-left: 30%;
+}
+.banner-area.index2.home7 .banner-left .banner-content .banner-heading {
+  color: #000000;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 55px;
+  padding-bottom: 20px;
+}
+.banner-area.index2.home7 .banner-left .banner-content .banner-para {
+  color: #282835;
+  font-size: 24px;
+  line-height: 40px;
+  padding-bottom: 18px;
+  padding-right: 84px;
+}
+.banner-area.index2.home7 .banner-left .banner-content .banner-btn a {
+  color: #ffffff;
+}
+.banner-area.index2.home7 .banner-left .banner-content .banner-btn .banner-btn1 {
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  background-color: transparent;
+  font-size: 16px;
+  display: inline-block;
+  margin-right: 20px;
+  outline: 1px solid transparent;
+  padding: 17px 53px;
+  text-transform: capitalize;
+  transition: all 0.4s;
+}
+.banner-area.index2.home7 .banner-left .banner-content .banner-btn .banner-btn2 {
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+}
+.banner-area.index2.home7 .banner-left .banner-content .banner-btn .banner-btn2:before {
+  background-color: #ffffff;
+  bottom: -6px;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  transition: all 0.3s;
+  transform: scaleX(1);
+  width: 100%;
+}
+.banner-area.index2.home7 .banner-left .banner-content .banner-btn .banner-btn2:hover:before {
+  transform: scaleX(0);
+}
+.banner-area.index2.home7 .banner-right .banner-image.index2banner img {
+  margin: 178px 0px 0 0px;
+}
+
 @-webkit-keyframes rotateEarth {
   0% {
     bottom: 8px;
@@ -563,6 +629,25 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
   background-color: #246efb !important;
 }
 
+.features-area.home7 .features-content a {
+  border: 1px solid transparent;
+  background-color: #246efb;
+  box-shadow: none;
+  border-radius: 30px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 16px 47px;
+  transition: all 0.5s;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+.features-area.home7 .features-content a:hover {
+  color: #246efb;
+  border: 1px solid #246efb;
+  background-color: transparent;
+}
+
 .user-count-area {
   background-image: url("../images/banner/userbg.png");
   background-size: cover;
@@ -613,6 +698,17 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
 
 .user-count-area.home6 {
   background-image: url("../images/blog/home6-user.png");
+}
+
+.home7.home6 .user-count-area .count-area a {
+  border-radius: 40px;
+  background-color: #ffffff;
+  color: #246efb;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding: 25px 111px;
+  transition: all 0.3s;
 }
 
 .testimonial-area {
@@ -1232,6 +1328,23 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
     font-size: 18px;
     padding: 0 10px;
   }
+  .home4-banner-area.home5 .banner-left-content .banner-btn .banner-btn-uniq {
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 9px 36px;
+    transition: all 0.5s;
+    border-color: #1ba555;
+    color: #1ba555;
+    padding: 20px 42px;
+  }
+  .home4-banner-area.home5 .banner-left-content .banner-btn i {
+    color: #ffffff;
+    font-size: 24px;
+    padding: 0 9px;
+  }
   .support-area .container .support-content .support-single-content .support-title {
     font-size: 14px;
     line-height: 22px;
@@ -1308,6 +1421,18 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
   .home4-banner-area .banner-right-content {
     top: 25%;
     left: 0%;
+  }
+  .home4-banner-area.home5 .banner-left-content .banner-btn .banner-btn-uniq {
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 9px 36px;
+    transition: all 0.5s;
+    border-color: #1ba555;
+    color: #1ba555;
+    padding: 13px 16px;
   }
   .support-area .container .support-content .support-single-content .support-title {
     font-size: 14px;
