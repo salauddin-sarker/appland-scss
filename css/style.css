@@ -38,6 +38,10 @@ img {
   max-width: 100%;
 }
 
+.home6-color {
+  color: #246efb;
+}
+
 .mobile-container {
   margin: auto;
   color: white;
@@ -373,6 +377,7 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
   color: #ffffff;
 }
 .banner-area.index2.home7 .banner-left .banner-content .banner-btn .banner-btn1 {
+  color: #ffffff;
   border: 1px solid #ffffff;
   border-radius: 30px;
   background-color: transparent;
@@ -383,6 +388,10 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
   padding: 17px 53px;
   text-transform: capitalize;
   transition: all 0.4s;
+}
+.banner-area.index2.home7 .banner-left .banner-content .banner-btn .banner-btn1:hover {
+  background-color: #000000;
+  border: 1px solid #000000;
 }
 .banner-area.index2.home7 .banner-left .banner-content .banner-btn .banner-btn2 {
   border: none;
@@ -1087,6 +1096,69 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
 }
 .home6.team-area .team-content .team-single-content .team-social-link i:hover {
   color: #246efb;
+}
+
+.pricing-area.home7 .pricing-content .pricing-single-item {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  padding-top: 62px;
+  padding-bottom: 72px;
+  position: relative;
+}
+.pricing-area.home7 .pricing-content .pricing-single-item:before {
+  content: " BEST VALUE";
+  font-size: 10px;
+  position: absolute;
+  right: -53px;
+  top: 24px;
+  background-color: #246efb;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 22px 77px;
+  transform: rotate(45deg);
+  overflow: hidden;
+}
+.pricing-area.home7 .pricing-content .pricing-image {
+  margin-bottom: 39px;
+}
+.pricing-area.home7 .pricing-content .pricing-heading {
+  color: #246efb;
+  font-size: 24px;
+  line-height: 27px;
+  padding-bottom: 20px;
+}
+.pricing-area.home7 .pricing-content .pricing-list li {
+  line-height: 38px;
+  font-size: 16px;
+}
+.pricing-area.home7 .pricing-content .pricing-package {
+  position: relative;
+  margin-top: 45px;
+}
+.pricing-area.home7 .pricing-content .pricing-package sup, .pricing-area.home7 .pricing-content .pricing-package sub {
+  color: #246efb;
+  font-size: 26px;
+  line-height: 40px;
+}
+.pricing-area.home7 .pricing-content .pricing-package span {
+  color: #246efb;
+  font-size: 65px;
+  line-height: 30px;
+  padding: 0 5px 0 20px;
+}
+.pricing-area.home7 .pricing-content .pricing-package sup {
+  position: absolute;
+}
+.pricing-area.home7 .pricing-content .pricing-btn {
+  margin-top: 60px;
+}
+.pricing-area.home7 .pricing-content .pricing-btn a {
+  background-color: transparent;
+  border-radius: 30px;
+  border: 1px solid #246efb;
+  color: #246efb;
+  font-size: 16px;
+  line-height: 35px;
+  padding: 19px 53px;
 }
 
 @media (max-width: 1399.98px) {
