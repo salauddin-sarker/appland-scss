@@ -1,6 +1,19 @@
 // pricing-area home7
 .pricing-area.home7{
+    padding: 116px 0 122px 0;
+    .pricing-title{
+        @include pricing-title;
+    }
+    .pricing-sub-title{
+        @include pricing-sub-title;
+    }
+    background-color: $videobg-color;
     .pricing-content{
         @include pricing-content;
+    }
+    .pricing-image{
+        img{
+            min-height: 68px;
+        }
     }
 }

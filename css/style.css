@@ -390,8 +390,10 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
   transition: all 0.4s;
 }
 .banner-area.index2.home7 .banner-left .banner-content .banner-btn .banner-btn1:hover {
-  background-color: #000000;
-  border: 1px solid #000000;
+  background-color: #ffffff;
+}
+.banner-area.index2.home7 .banner-left .banner-content .banner-btn .banner-btn1:hover a {
+  color: #000000;
 }
 .banner-area.index2.home7 .banner-left .banner-content .banner-btn .banner-btn2 {
   border: none;
@@ -1056,8 +1058,8 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
   background-color: #f8fafc;
 }
 .home6.team-area .team-content .team-single-content {
-  text-align: center;
   background-color: #ffffff;
+  text-align: center;
 }
 .home6.team-area .team-content .team-single-content .team-image img {
   width: 100%;
@@ -1098,11 +1100,37 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
   color: #246efb;
 }
 
+.pricing-area.home7 {
+  padding: 116px 0 122px 0;
+  background-color: #f8fafc;
+}
+.pricing-area.home7 .pricing-title {
+  font-size: 36px;
+  color: #1a264a;
+  text-align: center;
+}
+.pricing-area.home7 .pricing-sub-title {
+  font-size: 16px;
+  line-height: 28px;
+  margin: auto;
+  max-width: 610px;
+  padding: 15px 0 70px 0;
+}
 .pricing-area.home7 .pricing-content .pricing-single-item {
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
-  padding-top: 62px;
+  padding-top: 40px;
   padding-bottom: 72px;
+  overflow: hidden;
   position: relative;
+  transition: all 3s;
+}
+.pricing-area.home7 .pricing-content .pricing-single-item:hover:before {
+  transform: scaleX(1);
+  transform: rotate(45deg);
+}
+.pricing-area.home7 .pricing-content .pricing-single-item:hover .pricing-btn a {
+  background-color: #246efb;
+  color: #ffffff;
 }
 .pricing-area.home7 .pricing-content .pricing-single-item:before {
   content: " BEST VALUE";
@@ -1114,7 +1142,8 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
   color: #ffffff;
   text-transform: uppercase;
   padding: 22px 77px;
-  transform: rotate(45deg);
+  transition: all 0.3s;
+  transform: scaleX(0);
   overflow: hidden;
 }
 .pricing-area.home7 .pricing-content .pricing-image {
@@ -1159,6 +1188,10 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
   font-size: 16px;
   line-height: 35px;
   padding: 19px 53px;
+  transition: all 0.3s;
+}
+.pricing-area.home7 .pricing-image img {
+  min-height: 68px;
 }
 
 @media (max-width: 1399.98px) {
@@ -1665,5 +1698,76 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
   }
   .home6.team-area .team-content .team-single-content {
     margin-bottom: 30px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .banner-area.index2.home7 .banner-left .banner-content .banner-heading {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    padding-bottom: 10px;
+  }
+  .banner-area.index2.home7 .banner-left .banner-content .banner-para {
+    font-size: 18px;
+    line-height: 29px;
+    padding-bottom: 18px;
+    padding-right: 0px;
+  }
+  .banner-area.index2.home7 .banner-left .banner-content .banner-btn .banner-btn1 {
+    font-size: 16px;
+    margin-right: 15px;
+    padding: 15px 24px;
+  }
+  .pricing-area.home7 {
+    padding: 55px 0 60px 0;
+  }
+}
+@media (max-width: 991.98px) {
+  .features-area .features-content .features-text {
+    padding-left: 75px;
+  }
+  .banner-area.index2.home7 .banner-left {
+    margin-top: 35%;
+    margin-left: 6%;
+  }
+  header .header-top .get-now-btn a {
+    font-size: 14px;
+    padding: 9px 15px;
+    margin-left: 5px;
+  }
+  header .header-top .main-nav ul li {
+    padding: 25px 9px;
+  }
+  header .header-top .main-nav ul li a {
+    font-size: 14px;
+  }
+  .explore-features-area .explore-items .explore-single-item .explore-text .explore-name-bio {
+    padding-right: 0px;
+  }
+  .explore-features-area .explore-items .explore-single-item {
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 767.98px) {
+  .banner-area.index2.home7 .banner-left {
+    margin-top: 10%;
+    margin-left: 5%;
+  }
+  .banner-area.index2.home7 .banner-right .banner-image.index2banner img {
+    margin: 43px 0px 0 0px;
+  }
+  .pricing-content {
+    margin: 20px 0;
+  }
+  .pricing-area.home7 .pricing-sub-title {
+    padding: 15px 30px 25px 60px;
+  }
+  .features-area .features-content .features-text {
+    padding-left: 0;
+  }
+}
+@media (max-width: 575.98px) {
+  .app-display-area {
+    height: 480px;
   }
 }/*# sourceMappingURL=style.css.map */

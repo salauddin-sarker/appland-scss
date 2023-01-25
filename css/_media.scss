@@ -686,3 +686,86 @@
         margin-bottom: 30px;
     }
 }
+// home7
+@media (max-width: 1199.98px) {
+    .banner-area.index2.home7 {
+        .banner-left{
+            .banner-content {
+                .banner-heading {
+                    font-size: 32px;
+                    font-weight: 600;
+                    line-height: 42px;
+                    padding-bottom: 10px;
+                }
+                .banner-para {
+                    font-size: 18px;
+                    line-height: 29px;
+                    padding-bottom: 18px;
+                    padding-right: 0px;
+                }
+                 .banner-btn{
+                    .banner-btn1 {
+                        font-size: 16px;
+                        margin-right: 15px;
+                        padding: 15px 24px;
+                    }
+                 }
+            }
+        }
+    }
+    .pricing-area.home7 {
+        padding: 55px 0 60px 0;
+    }
+}
+@media (max-width: 991.98px) {
+    .features-area .features-content .features-text {
+        padding-left: 75px;
+    }
+    .banner-area.index2.home7 .banner-left {
+        margin-top: 35%;
+        margin-left: 6%;
+    }
+    header .header-top .get-now-btn a {
+        font-size: 14px;
+        padding: 9px 15px;
+        margin-left: 5px;
+    }
+    header .header-top .main-nav ul li {
+        padding: 25px 9px;
+    }
+    header .header-top .main-nav ul li a {
+        font-size: 14px;
+    }
+    .explore-features-area .explore-items .explore-single-item .explore-text .explore-name-bio {
+        padding-right: 0px;
+    }
+    .explore-features-area .explore-items .explore-single-item {
+        padding-bottom: 30px;
+    }
+}
+@media (max-width: 767.98px) {
+    .banner-area.index2.home7 .banner-left {
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+    .banner-area.index2.home7 .banner-right .banner-image.index2banner img {
+        margin: 43px 0px 0 0px;
+    }
+    .pricing-content{
+        margin: 20px 0;
+    }
+    .pricing-area.home7 .pricing-sub-title {
+        padding: 15px 30px 25px 60px;
+    }
+    .features-area .features-content .features-text {
+        padding-left: 0;
+    }
+}
+@media (max-width: 575.98px) {
+    .app-display-area {
+        height: 480px;
+    }
+}
+@media (max-width: 375.98px) {
+    
+}
