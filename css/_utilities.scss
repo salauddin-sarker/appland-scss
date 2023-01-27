@@ -228,3 +228,12 @@ img{
          }
         }
 }
+
+@mixin bg-gragient{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    background: linear-gradient(to right, #4a77e7 0%, #af95fb 30%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

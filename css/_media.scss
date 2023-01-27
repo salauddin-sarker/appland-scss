@@ -781,9 +781,69 @@
     .client-review-area {
         padding: 50px 0 30px 0;
     }
+    .brand-area {
+        padding: 50px 0 150px 0;
+        background-color: #f8fafc;
+    }
+    .brand-area .section-title {
+        margin-bottom: 50px;
+    }
+    .slick-dots li {
+        top: 50px;
+    }
 }
 @media (max-width: 575.98px) {
+    .client-area .Breadcrum-content .title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .client-area .Breadcrum-content .sub-title {
+        font-size: 14px;
+        padding: 0 30px;
+    }
+    .client-area {
+        padding: 50px 0 50px 0;
+    }
     .client-single-content{
         margin-bottom: 20px;
+    }
+    .client-review-area .client-single-content .client-review-text p {
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 1px;
+        padding-bottom: 10px;
+    }
+    .client-review-area .client-single-content .client-quote i {
+        color: #f2f2f2;
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .client-review-area .client-single-content .client-member .client-bio .client-name {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .client-review-area .client-single-content .client-member .client-bio .client-job {
+        font-size: 14px;
+    }
+    .client-review-area .client-single-content {
+        padding: 15px 40px 44px 40px;
+    }
+    .brand-area .section-title .main-heading {
+        font-size: 25px;
+    }
+    .brand-area .section-title .sub-heading {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 0 40px;
+    }
+    .brand-area {
+        padding: 50px 0 100px 0;
+    }
+    footer .footer-top {
+        padding: 24px 10px 18px 10px;
+    }
+    footer .footer-top .footer-content4 .f-text a img {
+        height: 90px;
+        width: 90px;
     }
 }

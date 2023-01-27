@@ -1,10 +1,20 @@
 /* ==========brand area ========== */
 .brand-area {
-    padding: 0px 0 220px 0;
+    padding: 112px 0 220px 0;
     background-color: $videobg-color;
 }
 .brand-area .section-title {
-    margin-bottom: 120px;
+    margin-bottom: 110px;
+    text-align: center;
+    .main-heading{
+        color: $title-color;
+        font-size: 36px;
+    }
+    .sub-heading{
+        font-size: 16px;
+        line-height: 28px;
+        color: $para-color;
+    }
 }
 .slick-dots{
     margin-top: 80px;

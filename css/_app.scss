@@ -1,0 +1,109 @@
+/* ==========app area ========== */
+.app-area {
+    background-color: $home6-color;
+    color: $white-color;
+    padding-top: 54px;
+    position: relative;
+}
+.app-heading {
+    padding-bottom: 49px;
+    position: relative;
+}
+.app-heading::after{
+    bottom: 43px;
+    background-color: $white-color;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 30px;
+}
+.app-heading::before {
+    bottom: 43px;
+    background-color: $white-color;
+    content: "";
+    height: 1px;
+    left: 33px;
+    position: absolute;
+    width: 70px;
+}
+.app-btn1.marg-right:hover .app-apple-icon i,.app-btn1.marg-right:hover .app-btn-para,.app-btn1.marg-right:hover .app-btn-store{
+    color: $white-color;
+}
+.app-btn1.marg-left:hover .app-apple-icon i,.app-btn1.marg-left:hover .app-btn-para,.app-btn1.marg-left:hover .app-btn-store{
+    color: $white-color;
+}
+.app-heading {
+    padding-bottom: 48px;
+}
+.app-area::before {
+    content: url("../images/shape/appshape.png");
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    z-index: 11;
+}
+.app-left-content {
+    padding-top: 91px;
+}
+.app-heading h4 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.app-para p {
+    font-size: 16px;
+    line-height: 28px;
+    padding-bottom: 24px;
+    padding-right: 84px;
+}
+.app-btn button {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid $white-color;
+    padding: 5px 33px;
+    transition: all .3s;
+   
+}
+.app-btn button a{
+    align-items: center;
+    background: transparent;
+    color: $white-color;
+    display: flex;
+    justify-content: center;
+}
+.app-btn button:hover {
+    background-color: $white-color;
+    transition: all .3s;
+}
+.app-btn button:hover .app-apple-icon i, .app-btn button:hover .app-btn-para, .app-btn button:hover h5 {
+    color: $dark-color;
+    transition: all .4s;
+}
+.app-apple-icon i{
+    font-size: 32px;
+    padding-right: 15px;
+    transition: all .3s;
+}
+.app-btn-para{
+    font-size: 12px;
+    line-height: 21px;
+    transition: all .3s;
+}
+.app-btn-store{
+    font-size: 20px;
+    line-height: 21px;
+    transition: all .3s;
+}
+.marg-right{
+    margin-right: 15px;
+}
+
+.app-image{
+    position: relative;
+}
+.app-image img {
+    max-height: 539px;
+    width: auto;
+
+}

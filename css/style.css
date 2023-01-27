@@ -880,10 +880,12 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
   padding: 58px 0 61px 0;
 }
 .footer-top .footer-content1 .f-title {
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: bold;
-  padding-bottom: 34px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 30px;
+  background: linear-gradient(to right, #4a77e7 0%, #af95fb 30%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .footer-top .footer-content1 .f-title a {
   color: #1ba555;
@@ -931,6 +933,13 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
   padding: 0 30px;
 }
 .footer-top .footer-content3 .f-text li i {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 30px;
+  background: linear-gradient(to right, #4a77e7 0%, #af95fb 30%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 14px;
   margin-left: -31px;
   color: #1ba555;
 }
@@ -1148,6 +1157,56 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
   color: #246efb;
 }
 
+.main-team-area .team-content .team-single-content {
+  background-color: #ffffff;
+  text-align: center;
+}
+.main-team-area .team-content .team-single-content .team-image img {
+  width: 100%;
+}
+.main-team-area .team-content .team-single-content .team-details .team-name {
+  color: #1a264a;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 20px;
+  padding-top: 38px;
+  text-transform: capitalize;
+}
+.main-team-area .team-content .team-single-content .team-details .job-title {
+  color: #797988;
+  display: block;
+  font-size: 15px;
+  line-height: 15px;
+  padding-bottom: 19px;
+  text-transform: capitalize;
+}
+.main-team-area .team-content .team-single-content .team-text {
+  color: #282835;
+  font-size: 15px;
+  line-height: 29px;
+  max-width: 245px;
+  margin: auto;
+}
+.main-team-area .team-content .team-single-content .team-social-link {
+  padding-top: 17px;
+  padding-bottom: 33px;
+}
+.main-team-area .team-content .team-single-content .team-social-link i {
+  font-size: 22px;
+  padding: 5px 7px;
+  transition: all 0.3s;
+}
+.main-team-area .team-content .team-single-content .team-social-link i:hover {
+  color: #246efb;
+}
+.main-team-area .team-content .team-single-content {
+  background-color: #f8fafc;
+}
+.main-team-area .team-content .team-single-content .team-image img {
+  height: 300px;
+  width: 100%;
+}
+
 .pricing-area.home7 {
   padding: 116px 0 122px 0;
   background-color: #f8fafc;
@@ -1242,14 +1301,146 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
   min-height: 68px;
 }
 
+section.pricing-area {
+  padding-top: 26px;
+}
+
+.pricing-area .powtitle::before {
+  bottom: -10px;
+  left: 50%;
+}
+
+.pricing-area .sub-heading {
+  color: #585e68;
+  font-size: 16px;
+  line-height: 28px;
+  padding: 32px 366px 70px 366px;
+}
+
+.pricing-area .powtitle::after {
+  bottom: -10px;
+  left: 46%;
+}
+
+.nav-link.pricing {
+  border-radius: 40px 0 0px 40px;
+  margin-top: -88px;
+  padding: 17px 108px;
+  text-align: center;
+}
+
+.nav-link.pricing2 {
+  border-radius: 0 40px 40px 0;
+  margin-top: -88px;
+  padding: 17px 108px;
+  text-align: center;
+}
+
+.pricing-content {
+  background-color: var(--white);
+  padding: 0px 0 0px 0;
+  transition: all 0.3s;
+  text-align: center;
+  margin-bottom: 120px;
+  margin-top: 50px;
+}
+
+.review-tab-wrapper .nav-tabs .nav-link {
+  border: 1px solid #b6b6c5;
+}
+
+.review-tab-wrapper .nav-tabs {
+  border-bottom: 1px solid transparent;
+  justify-content: center;
+  margin-top: 6px;
+}
+
+button#description-tab.active,
+button#review-tab.active {
+  background-color: #faf5ff;
+}
+
+.pricing-content:hover {
+  box-shadow: rgba(3, 3, 3, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.price-model {
+  color: #1a264a;
+  font-size: 18px;
+  line-height: 60px;
+}
+
+.price-highlight {
+  background-color: #faf5ff;
+  margin-bottom: 48px;
+  padding: 22px 0 35px 0;
+}
+
+.price-highlight sup {
+  color: #6509e2;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.price-highlight .model-rate {
+  color: #6509e2;
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.price-highlight .limit-time {
+  color: #6509e2;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+.user-limit, .elementlimit, .support-limit {
+  color: #585e68;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.try {
+  color: #d4d4d4;
+  margin-bottom: 58px;
+  text-transform: uppercase;
+}
+
+.pricing-btn button {
+  border-radius: 40px;
+  border: 1px solid rebeccapurple;
+  background: transparent;
+  color: var(--dark);
+  font-size: 14px;
+  line-height: 40px;
+  padding: 9px 75px;
+  transition: all 0.3s;
+}
+
+.pricing-content:hover .pricing-btn button {
+  background: linear-gradient(to right, #4b0dd3 0%, #9700ff 100%);
+  color: var(--white);
+}
+
 /* ==========brand area ========== */
 .brand-area {
-  padding: 0px 0 220px 0;
+  padding: 112px 0 220px 0;
   background-color: #f8fafc;
 }
 
 .brand-area .section-title {
-  margin-bottom: 120px;
+  margin-bottom: 110px;
+  text-align: center;
+}
+.brand-area .section-title .main-heading {
+  color: #1a264a;
+  font-size: 36px;
+}
+.brand-area .section-title .sub-heading {
+  font-size: 16px;
+  line-height: 28px;
+  color: #282835;
 }
 
 .slick-dots {
@@ -1291,6 +1482,133 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
 
 .brand-area img {
   width: auto !important;
+}
+
+/* ==========app area ========== */
+.app-area {
+  background-color: #246efb;
+  color: #ffffff;
+  padding-top: 54px;
+  position: relative;
+}
+
+.app-heading {
+  padding-bottom: 49px;
+  position: relative;
+}
+
+.app-heading::after {
+  bottom: 43px;
+  background-color: #ffffff;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  width: 30px;
+}
+
+.app-heading::before {
+  bottom: 43px;
+  background-color: #ffffff;
+  content: "";
+  height: 1px;
+  left: 33px;
+  position: absolute;
+  width: 70px;
+}
+
+.app-btn1.marg-right:hover .app-apple-icon i, .app-btn1.marg-right:hover .app-btn-para, .app-btn1.marg-right:hover .app-btn-store {
+  color: #ffffff;
+}
+
+.app-btn1.marg-left:hover .app-apple-icon i, .app-btn1.marg-left:hover .app-btn-para, .app-btn1.marg-left:hover .app-btn-store {
+  color: #ffffff;
+}
+
+.app-heading {
+  padding-bottom: 48px;
+}
+
+.app-area::before {
+  content: url("../images/shape/appshape.png");
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  z-index: 11;
+}
+
+.app-left-content {
+  padding-top: 91px;
+}
+
+.app-heading h4 {
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.app-para p {
+  font-size: 16px;
+  line-height: 28px;
+  padding-bottom: 24px;
+  padding-right: 84px;
+}
+
+.app-btn button {
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  padding: 5px 33px;
+  transition: all 0.3s;
+}
+
+.app-btn button a {
+  align-items: center;
+  background: transparent;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.app-btn button:hover {
+  background-color: #ffffff;
+  transition: all 0.3s;
+}
+
+.app-btn button:hover .app-apple-icon i, .app-btn button:hover .app-btn-para, .app-btn button:hover h5 {
+  color: #000000;
+  transition: all 0.4s;
+}
+
+.app-apple-icon i {
+  font-size: 32px;
+  padding-right: 15px;
+  transition: all 0.3s;
+}
+
+.app-btn-para {
+  font-size: 12px;
+  line-height: 21px;
+  transition: all 0.3s;
+}
+
+.app-btn-store {
+  font-size: 20px;
+  line-height: 21px;
+  transition: all 0.3s;
+}
+
+.marg-right {
+  margin-right: 15px;
+}
+
+.app-image {
+  position: relative;
+}
+
+.app-image img {
+  max-height: 539px;
+  width: auto;
 }
 
 @media (max-width: 1399.98px) {
@@ -1881,9 +2199,69 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
   .client-review-area {
     padding: 50px 0 30px 0;
   }
+  .brand-area {
+    padding: 50px 0 150px 0;
+    background-color: #f8fafc;
+  }
+  .brand-area .section-title {
+    margin-bottom: 50px;
+  }
+  .slick-dots li {
+    top: 50px;
+  }
 }
 @media (max-width: 575.98px) {
+  .client-area .Breadcrum-content .title {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .client-area .Breadcrum-content .sub-title {
+    font-size: 14px;
+    padding: 0 30px;
+  }
+  .client-area {
+    padding: 50px 0 50px 0;
+  }
   .client-single-content {
     margin-bottom: 20px;
+  }
+  .client-review-area .client-single-content .client-review-text p {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+  }
+  .client-review-area .client-single-content .client-quote i {
+    color: #f2f2f2;
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+  .client-review-area .client-single-content .client-member .client-bio .client-name {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .client-review-area .client-single-content .client-member .client-bio .client-job {
+    font-size: 14px;
+  }
+  .client-review-area .client-single-content {
+    padding: 15px 40px 44px 40px;
+  }
+  .brand-area .section-title .main-heading {
+    font-size: 25px;
+  }
+  .brand-area .section-title .sub-heading {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0 40px;
+  }
+  .brand-area {
+    padding: 50px 0 100px 0;
+  }
+  footer .footer-top {
+    padding: 24px 10px 18px 10px;
+  }
+  footer .footer-top .footer-content4 .f-text a img {
+    height: 90px;
+    width: 90px;
   }
 }/*# sourceMappingURL=style.css.map */

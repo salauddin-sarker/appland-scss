@@ -4,7 +4,7 @@
     padding: 58px 0 61px 0;
     .footer-content1{
         .f-title{
-            @include f-title;
+            @include bg-gragient;
             a{  
                 color: $btnbg-color;
                 font-size: 30px;
@@ -57,6 +57,8 @@
             li{
                 padding: 0 30px;
                 i{
+                    @include bg-gragient;
+                    font-size: 14px;
                     margin-left: -31px;
                     color: $btnbg-color;
                 }

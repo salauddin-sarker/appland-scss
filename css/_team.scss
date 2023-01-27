@@ -5,3 +5,18 @@
         @include team-content;
     }
 }
+// team-main
+.main-team-area{
+    .team-content{
+        @include team-content;
+        .team-single-content{
+            background-color: $videobg-color;
+            .team-image{
+                img{
+                    height: 300px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
