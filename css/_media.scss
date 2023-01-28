@@ -848,10 +848,101 @@
     }
 }
 
-
+// services
 @media (max-width: 1399.98px) {
-    
+    .app-left-content {
+        padding-top: 20px;
+    }
 }
-@media (max-width: 1199.98px) {}
-@media (max-width: 991.98px) {}
-@media (max-width: 575.98px) {}
+@media (max-width: 1199.98px) {
+    .awfeatures-image img {
+        margin-left: 100px;
+    }
+}
+@media (max-width: 991.98px) {
+    .awfeatures-image img {
+        margin-left: 0px;
+    }
+    .app-para p {
+        font-size: 14px;
+        line-height: 26px;
+        padding-bottom: 5px;
+        padding-right: 0px;
+    }
+    .app-btn-store {
+        font-size: 14px;
+        line-height: 16px;
+        transition: all 0.3s;
+    }
+    .app-btn button {
+        padding: 5px 13px;
+    }
+    .app-heading {
+        padding-bottom: 0px;
+    }
+    .app-heading h4 {
+        font-size: 28px;
+        font-weight: bold;
+        padding-bottom: 5px;
+    }
+    .app-heading::after,.app-heading::before{
+       display: none;
+    }
+    .app-left-content {
+        padding-top: 0px;
+    }
+}
+@media (max-width: 767.98px) {
+    .service-support-area {
+        padding: 15px 0;
+    }
+    .awesome-para {
+        font-size: 14px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .awesome-content {
+        padding-bottom: 30px;
+    }
+    .awesome-icon {
+        margin: 20px auto;
+    }
+    .awesome-heading {
+        text-align: center;
+    }
+    .awesome-features-area .section-title {
+        margin-bottom: 30px;
+        margin-top: 25px;
+    }
+    .app-btn button {
+        margin-bottom: 40px;
+    }
+    .home6.team-area .team-content .team-single-content .team-text {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .home6.team-area .team-content .team-single-content .team-social-link i {
+        font-size: 14px;
+        padding: 5px 4px;
+        transition: all 0.3s;
+    }
+    .testimonial-area {
+        padding: 0px 0 37px 0;
+    }
+}
+@media (max-width: 575.98px) {
+    .service-support-area .support-s-content .single-item .support-image {
+        padding: 20px 0;
+    }
+    .service-support-area .support-s-content .single-item .support-para {
+        padding-bottom: 0px;
+    }
+    .awesome-features-area .section-title .main-heading {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .explore-features-area .explore-content .explore-title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+}

@@ -30,11 +30,23 @@
     
 }
 .service-support-area{
+    padding: 100px 0 100px 0;
     .support-s-content{
         .single-item{
-            .support-image{}
-            .support-title{}
-            .support-para{}
+            .support-image{
+                padding: 36px 0;
+            }
+            .support-title{
+                color: $title-color;
+                font-size: 18px;
+                line-height: 30px;
+            }
+            .support-para{
+                color: $gray-color;
+                font-size: 16px;
+                line-height: 28px;
+                padding: 13px 10px;
+            }
         }
     }
 }

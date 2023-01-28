@@ -170,3 +170,60 @@
         background-color: transparent;
     }
 }
+
+
+// services
+/* ==========awesome-features-area ========== */
+.awesome-features-area {
+    background-color: #f8f8ff;
+    padding: 20px 0 60px 0;
+}
+.awesome-features-area .section-title{
+    margin-bottom: 76px;
+    margin-top: 60px;
+}
+.awesome-features-area .section-title .main-heading{
+    color: $title-color;
+    font-size: 35px;
+    line-height: 60px;
+    text-align: center;
+}
+.awesome-features-area .section-title .sub-heading{
+    color: $gray-color;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+}
+.awesome-content{
+    padding-bottom: 70px;
+}
+.awesome-icon{
+    border-radius: 50%;
+    height: 65px;
+    margin-bottom: 32px;
+    text-align: center;
+    width: 65px;
+}
+.awesome-icon i{ 
+    color: $white-color;
+    font-size: 26px;
+    line-height: 65px;
+    text-align: center;
+}
+ .awesome-heading{
+    color: #71777f;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    padding-bottom: 5px;
+ }
+ .awesome-para {
+    color: $para-color;
+    font-size: 16px;
+    line-height: 28px;
+    padding-right: 67px;
+}
+
+.awfeatures-image img{
+    margin-left: 47px;
+}
