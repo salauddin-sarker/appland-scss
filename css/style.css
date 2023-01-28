@@ -1117,6 +1117,7 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
 .home6.team-area .team-content .team-single-content {
   background-color: #ffffff;
   text-align: center;
+  transition: all 0.3s;
 }
 .home6.team-area .team-content .team-single-content .team-image img {
   width: 100%;
@@ -1156,10 +1157,14 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
 .home6.team-area .team-content .team-single-content .team-social-link i:hover {
   color: #246efb;
 }
+.home6.team-area .team-content .team-single-content:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 
 .main-team-area .team-content .team-single-content {
   background-color: #ffffff;
   text-align: center;
+  transition: all 0.3s;
 }
 .main-team-area .team-content .team-single-content .team-image img {
   width: 100%;
@@ -1199,6 +1204,9 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
 .main-team-area .team-content .team-single-content .team-social-link i:hover {
   color: #246efb;
 }
+.main-team-area .team-content .team-single-content:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 .main-team-area .team-content .team-single-content {
   background-color: #f8fafc;
 }
@@ -1207,23 +1215,22 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
   width: 100%;
 }
 
-.pricing-area.home7 {
+.main-pricing-area.home7 {
   padding: 116px 0 122px 0;
-  background-color: #f8fafc;
 }
-.pricing-area.home7 .pricing-title {
+.main-pricing-area.home7 .pricing-title {
   font-size: 36px;
   color: #1a264a;
   text-align: center;
 }
-.pricing-area.home7 .pricing-sub-title {
+.main-pricing-area.home7 .pricing-sub-title {
   font-size: 16px;
   line-height: 28px;
   margin: auto;
   max-width: 610px;
   padding: 15px 0 70px 0;
 }
-.pricing-area.home7 .pricing-content .pricing-single-item {
+.main-pricing-area.home7 .pricing-content .pricing-single-item {
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
   padding-top: 40px;
   padding-bottom: 72px;
@@ -1231,15 +1238,15 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
   position: relative;
   transition: all 3s;
 }
-.pricing-area.home7 .pricing-content .pricing-single-item:hover:before {
+.main-pricing-area.home7 .pricing-content .pricing-single-item:hover:before {
   transform: scaleX(1);
   transform: rotate(45deg);
 }
-.pricing-area.home7 .pricing-content .pricing-single-item:hover .pricing-btn a {
+.main-pricing-area.home7 .pricing-content .pricing-single-item:hover .pricing-btn a {
   background-color: #246efb;
   color: #ffffff;
 }
-.pricing-area.home7 .pricing-content .pricing-single-item:before {
+.main-pricing-area.home7 .pricing-content .pricing-single-item:before {
   content: " BEST VALUE";
   font-size: 10px;
   position: absolute;
@@ -1253,41 +1260,41 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
   transform: scaleX(0);
   overflow: hidden;
 }
-.pricing-area.home7 .pricing-content .pricing-image {
+.main-pricing-area.home7 .pricing-content .pricing-image {
   margin-bottom: 39px;
 }
-.pricing-area.home7 .pricing-content .pricing-heading {
+.main-pricing-area.home7 .pricing-content .pricing-heading {
   color: #246efb;
   font-size: 24px;
   line-height: 27px;
   padding-bottom: 20px;
 }
-.pricing-area.home7 .pricing-content .pricing-list li {
+.main-pricing-area.home7 .pricing-content .pricing-list li {
   line-height: 38px;
   font-size: 16px;
 }
-.pricing-area.home7 .pricing-content .pricing-package {
+.main-pricing-area.home7 .pricing-content .pricing-package {
   position: relative;
   margin-top: 45px;
 }
-.pricing-area.home7 .pricing-content .pricing-package sup, .pricing-area.home7 .pricing-content .pricing-package sub {
+.main-pricing-area.home7 .pricing-content .pricing-package sup, .main-pricing-area.home7 .pricing-content .pricing-package sub {
   color: #246efb;
   font-size: 26px;
   line-height: 40px;
 }
-.pricing-area.home7 .pricing-content .pricing-package span {
+.main-pricing-area.home7 .pricing-content .pricing-package span {
   color: #246efb;
   font-size: 65px;
   line-height: 30px;
   padding: 0 5px 0 20px;
 }
-.pricing-area.home7 .pricing-content .pricing-package sup {
+.main-pricing-area.home7 .pricing-content .pricing-package sup {
   position: absolute;
 }
-.pricing-area.home7 .pricing-content .pricing-btn {
+.main-pricing-area.home7 .pricing-content .pricing-btn {
   margin-top: 60px;
 }
-.pricing-area.home7 .pricing-content .pricing-btn a {
+.main-pricing-area.home7 .pricing-content .pricing-btn a {
   background-color: transparent;
   border-radius: 30px;
   border: 1px solid #246efb;
@@ -1297,29 +1304,34 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
   padding: 19px 53px;
   transition: all 0.3s;
 }
-.pricing-area.home7 .pricing-image img {
+.main-pricing-area.home7 .pricing-image img {
   min-height: 68px;
 }
 
-section.pricing-area {
-  padding-top: 26px;
+.main-pricing-area {
+  padding: 70px 0 80px 0 !important;
 }
 
-.pricing-area .powtitle::before {
-  bottom: -10px;
-  left: 50%;
+.pricing-area {
+  background-color: #f8fafc;
+  padding: 100px 0;
 }
-
-.pricing-area .sub-heading {
-  color: #585e68;
+.pricing-area .section-title .main-heading {
+  font-size: 36px;
+  color: #1a264a;
+  text-align: center;
+}
+.pricing-area .section-title .sub-heading {
   font-size: 16px;
   line-height: 28px;
-  padding: 32px 366px 70px 366px;
+  margin: auto;
+  max-width: 610px;
+  padding: 15px 0 70px 0;
+  padding: 15px 0 133px 0;
 }
 
-.pricing-area .powtitle::after {
-  bottom: -10px;
-  left: 46%;
+section.main-pricing-area {
+  padding-top: 26px;
 }
 
 .nav-link.pricing {
@@ -1337,11 +1349,11 @@ section.pricing-area {
 }
 
 .pricing-content {
-  background-color: var(--white);
+  background-color: #ffffff;
   padding: 0px 0 0px 0;
   transition: all 0.3s;
   text-align: center;
-  margin-bottom: 120px;
+  margin-bottom: 45px;
   margin-top: 50px;
 }
 
@@ -1358,6 +1370,10 @@ section.pricing-area {
 button#description-tab.active,
 button#review-tab.active {
   background-color: #faf5ff;
+}
+
+.tabs-pricing {
+  padding-bottom: 60px;
 }
 
 .pricing-content:hover {
@@ -1420,7 +1436,7 @@ button#review-tab.active {
 
 .pricing-content:hover .pricing-btn button {
   background: linear-gradient(to right, #4b0dd3 0%, #9700ff 100%);
-  color: var(--white);
+  color: #ffffff;
 }
 
 /* ==========brand area ========== */
@@ -1530,7 +1546,6 @@ button#review-tab.active {
 }
 
 .app-area::before {
-  content: url("../images/shape/appshape.png");
   position: absolute;
   bottom: 0px;
   left: 0;
@@ -2135,7 +2150,7 @@ button#review-tab.active {
     margin-right: 15px;
     padding: 15px 24px;
   }
-  .pricing-area.home7 {
+  .main-pricing-area.home7 {
     padding: 55px 0 60px 0;
   }
 }
@@ -2176,7 +2191,7 @@ button#review-tab.active {
   .pricing-content {
     margin: 20px 0;
   }
-  .pricing-area.home7 .pricing-sub-title {
+  .main-pricing-area.home7 .pricing-sub-title {
     padding: 15px 30px 25px 60px;
   }
   .features-area .features-content .features-text {

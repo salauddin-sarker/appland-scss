@@ -897,21 +897,21 @@ p.subtitle {
     text-transform: uppercase;
     border-bottom: 1px solid var(--dark);
 }
-/* ==========pricing-area ========== */
-section.pricing-area {
+/* ==========main-pricing-area ========== */
+section.main-pricing-area {
     padding-top: 26px;
 }
-.pricing-area .powtitle::before{
+.main-pricing-area .powtitle::before{
     bottom: -10px;
     left: 50%;
 }
-.pricing-area .sub-heading {
+.main-pricing-area .sub-heading {
     color: #585e68;
     font-size: 16px;
     line-height: 28px;
     padding: 32px 366px 70px 366px;
 }
-.pricing-area .powtitle::after{
+.main-pricing-area .powtitle::after{
     bottom: -10px;
     left: 46%;
 }
@@ -1017,7 +1017,7 @@ button#review-tab.active{
 .home3 .red-more-btn {
     margin-top: -10px;
 }
-section.blog-area.home3.pricing-area {
+section.blog-area.home3.main-pricing-area {
     padding: 25px 0 60px 0;
 }
 .app-area.home3{

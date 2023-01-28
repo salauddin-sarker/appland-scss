@@ -88,6 +88,7 @@ img{
     .team-single-content{
         background-color: $white-color;
         text-align: center;
+        transition: all .3s;
         .team-image{
             img{
                 width: 100%;
@@ -129,6 +130,9 @@ img{
                     color: $home6-color;
                 }
             }
+        }
+        &:hover{
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         }
     }
 }

@@ -713,7 +713,7 @@
             }
         }
     }
-    .pricing-area.home7 {
+    .main-pricing-area.home7 {
         padding: 55px 0 60px 0;
     }
 }
@@ -754,7 +754,7 @@
     .pricing-content{
         margin: 20px 0;
     }
-    .pricing-area.home7 .pricing-sub-title {
+    .main-pricing-area.home7 .pricing-sub-title {
         padding: 15px 30px 25px 60px;
     }
     .features-area .features-content .features-text {
@@ -847,3 +847,11 @@
         width: 90px;
     }
 }
+
+
+@media (max-width: 1399.98px) {
+    
+}
+@media (max-width: 1199.98px) {}
+@media (max-width: 991.98px) {}
+@media (max-width: 575.98px) {}

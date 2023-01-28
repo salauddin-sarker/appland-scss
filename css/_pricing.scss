@@ -1,5 +1,5 @@
-// pricing-area home7
-.pricing-area.home7{
+// main-pricing-area home7
+.main-pricing-area.home7{
     padding: 116px 0 122px 0;
     .pricing-title{
         @include pricing-title;
@@ -7,7 +7,6 @@
     .pricing-sub-title{
         @include pricing-sub-title;
     }
-    background-color: $videobg-color;
     .pricing-content{
         @include pricing-content;
     }
@@ -17,25 +16,33 @@
         }
     }
 }
+.main-pricing-area{
+    padding: 70px 0 80px 0 !important;
+}
 // main-pricing
-
-section.pricing-area {
+.pricing-area{
+    background-color: $videobg-color;
+    padding: 100px 0;
+    .section-title{
+        .main-heading{
+            @include pricing-title;
+        }
+        .sub-heading{
+            @include pricing-sub-title;
+            padding: 15px 0 133px 0;
+        }
+    }
+}
+section.main-pricing-area {
     padding-top: 26px;
 }
-.pricing-area .powtitle::before{
-    bottom: -10px;
-    left: 50%;
-}
-.pricing-area .sub-heading {
-    color: #585e68;
-    font-size: 16px;
-    line-height: 28px;
-    padding: 32px 366px 70px 366px;
-}
-.pricing-area .powtitle::after{
-    bottom: -10px;
-    left: 46%;
-}
+// .main-pricing-area .sub-heading {
+//     color: #585e68;
+//     font-size: 16px;
+//     line-height: 28px;
+//     padding: 32px 366px 70px 366px;
+// }
+
 .nav-link.pricing {
     border-radius: 40px 0 0px 40px;
     margin-top: -88px;
@@ -49,11 +56,11 @@ section.pricing-area {
     text-align: center;
 }
 .pricing-content {
-    background-color: var(--white);
+    background-color: $white-color;
     padding: 0px 0 0px 0;
     transition: all .3s;
     text-align: center;
-    margin-bottom: 120px;
+    margin-bottom: 45px;
     margin-top: 50px;
 }
 .review-tab-wrapper .nav-tabs .nav-link {
@@ -67,6 +74,9 @@ section.pricing-area {
 button#description-tab.active,
 button#review-tab.active{
     background-color: #faf5ff;
+}
+.tabs-pricing{
+    padding-bottom: 60px;
 }
 .pricing-content:hover{
     box-shadow: rgba(3, 3, 3, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
@@ -116,8 +126,9 @@ button#review-tab.active{
     line-height: 40px;
     padding: 9px 75px;
     transition: all .3s;
+    
 }
 .pricing-content:hover .pricing-btn button{
     background: linear-gradient(to right, #4b0dd3 0%, #9700ff 100%);
-    color: var(--white);
+    color: $white-color;
 }
