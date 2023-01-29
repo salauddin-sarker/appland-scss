@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -492,6 +493,12 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
 .service-support-area .support-s-content .single-item .support-image {
   padding: 36px 0;
 }
+.service-support-area .support-s-content .single-item .support-image img {
+  transition: all 0.3s;
+}
+.service-support-area .support-s-content .single-item .support-image img:hover {
+  transform: scale(1.2);
+}
 .service-support-area .support-s-content .single-item .support-title {
   color: #1a264a;
   font-size: 18px;
@@ -712,7 +719,11 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
   height: 65px;
   margin-bottom: 32px;
   text-align: center;
+  transition: all 0.4s;
   width: 65px;
+}
+.awesome-icon:hover {
+  border-radius: 0;
 }
 
 .awesome-icon i {
@@ -802,6 +813,10 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
   letter-spacing: 1px;
   padding: 25px 111px;
   transition: all 0.3s;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
 }
 
 .client-area {
@@ -1192,6 +1207,10 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
   font-size: 14px;
 }
 
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
 .home6.team-area {
   background-color: #ffffff;
 }
@@ -1296,6 +1315,10 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
   width: 100%;
 }
 
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
 .main-pricing-area.home7 {
   padding: 116px 0 122px 0;
 }
@@ -1311,23 +1334,12 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
   max-width: 610px;
   padding: 15px 0 70px 0;
 }
-.main-pricing-area.home7 .pricing-content .pricing-single-item {
-  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
-  padding-top: 40px;
-  padding-bottom: 72px;
+.main-pricing-area.home7 .pricing-content .base-tie {
   overflow: hidden;
   position: relative;
   transition: all 3s;
 }
-.main-pricing-area.home7 .pricing-content .pricing-single-item:hover:before {
-  transform: scaleX(1);
-  transform: rotate(45deg);
-}
-.main-pricing-area.home7 .pricing-content .pricing-single-item:hover .pricing-btn a {
-  background-color: #246efb;
-  color: #ffffff;
-}
-.main-pricing-area.home7 .pricing-content .pricing-single-item:before {
+.main-pricing-area.home7 .pricing-content .base-tie:before {
   content: " BEST VALUE";
   font-size: 10px;
   position: absolute;
@@ -1338,8 +1350,16 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
   text-transform: uppercase;
   padding: 22px 77px;
   transition: all 0.3s;
-  transform: scaleX(0);
-  overflow: hidden;
+  transform: rotate(45deg);
+}
+.main-pricing-area.home7 .pricing-content .pricing-single-item {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  padding-top: 40px;
+  padding-bottom: 72px;
+}
+.main-pricing-area.home7 .pricing-content .pricing-single-item:hover .pricing-btn a {
+  background-color: #246efb;
+  color: #ffffff;
 }
 .main-pricing-area.home7 .pricing-content .pricing-image {
   margin-bottom: 39px;
@@ -1707,6 +1727,57 @@ button#review-tab.active {
   width: auto;
 }
 
+.panel-title > a:before {
+  float: left !important;
+  font-size: 18px;
+  font-family: FontAwesome;
+  content: "\f068";
+  padding-right: 5px;
+  color: #6f62ea;
+}
+
+.panel-title > a.collapsed:before {
+  float: left !important;
+  content: "\f067";
+  font-size: 18px;
+  color: #6f62ea;
+}
+
+.panel-title > a:hover,
+.panel-title > a:active,
+.panel-title > a:focus {
+  text-decoration: none;
+}
+
+.faq-area {
+  background-color: #f8fafc;
+}
+.faq-area .accrodion-group-item {
+  border: none;
+}
+.faq-area .accrodion-group-item .panel-default {
+  border: none;
+  margin: 10px 0;
+}
+.faq-area .accrodion-group-item .panel-default .panel-heading {
+  background-color: #ffffff;
+}
+.faq-area .accrodion-group-item .panel-default .panel-heading .custom-title {
+  color: #282835;
+  font-size: 18px;
+  padding: 9px 0;
+}
+.faq-area .accrodion-group-item .panel-default .panel-heading .panel-body {
+  border: none;
+}
+.faq-area .panel-group .panel-heading + .panel-collapse > .panel-body, .faq-area .panel-group .panel-heading + .panel-collapse > .list-group {
+  border-top: none;
+}
+
+.accodion-tabs-para {
+  font-size: 16px;
+}
+
 @media (max-width: 1399.98px) {
   .home4-banner-area {
     height: 800px;
@@ -1729,7 +1800,7 @@ button#review-tab.active {
 }
 @media (max-width: 1199.98px) {
   header .header-top .main-nav ul li {
-    padding: 25px 14px;
+    padding: 25px 11px;
   }
   header .get-now-btn a {
     font-size: 14px;
@@ -2249,7 +2320,7 @@ button#review-tab.active {
     margin-left: 5px;
   }
   header .header-top .main-nav ul li {
-    padding: 25px 9px;
+    padding: 25px 7px;
   }
   header .header-top .main-nav ul li a {
     font-size: 14px;
@@ -2456,5 +2527,25 @@ button#review-tab.active {
   .explore-features-area .explore-content .explore-title {
     font-size: 30px;
     line-height: 30px;
+  }
+}
+@media (max-width: 767.98px) {
+  .nav-link.pricing, .nav-link.pricing2 {
+    padding: 14px 50px;
+  }
+  .pricing-area {
+    padding: 45px 0;
+  }
+  .main-pricing-area {
+    padding: 30px 0 30px 0 !important;
+  }
+}
+@media (max-width: 575.98px) {
+  .main-pricing-area.home7 .pricing-sub-title {
+    padding: 15px 10px 25px 10px;
+    font-size: 14px;
+  }
+  .main-pricing-area.home7 .pricing-title, .pricing-area .section-title .main-heading {
+    font-size: 28px;
   }
 }/*# sourceMappingURL=style.css.map */

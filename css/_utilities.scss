@@ -149,22 +149,10 @@ img{
     padding: 15px 0 70px 0; 
 }
 @mixin pricing-content{
-    .pricing-single-item{
-        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
-        padding-top: 40px;
-        padding-bottom: 72px;
+    .base-tie{
         overflow: hidden;
         position: relative;
         transition: all 3s;
-        &:hover:before{
-            transform: scaleX(1);
-            transform: rotate(45deg);
-        }
-        &:hover .pricing-btn a{
-            background-color: $home6-color;
-            color: $white-color;
-
-        }
         &:before{
             content: " BEST VALUE";
             font-size: 10px;
@@ -176,9 +164,21 @@ img{
             text-transform: uppercase;
             padding: 22px 77px;
             transition: all .3s;
-            transform: scaleX(0);
-            overflow: hidden;
+            transform: rotate(45deg);
             
+        }
+        
+    }
+    .pricing-single-item{
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+        padding-top: 40px;
+        padding-bottom: 72px;
+        
+        
+        &:hover .pricing-btn a{
+            background-color: $home6-color;
+            color: $white-color;
+
         }
     }
         .pricing-image{

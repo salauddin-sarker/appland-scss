@@ -35,6 +35,12 @@
         .single-item{
             .support-image{
                 padding: 36px 0;
+                img{
+                    transition: all .3s;
+                    &:hover{
+                        transform: scale(1.2);
+                    }
+                }
             }
             .support-title{
                 color: $title-color;

@@ -202,7 +202,11 @@
     height: 65px;
     margin-bottom: 32px;
     text-align: center;
+    transition: all .4s;
     width: 65px;
+    &:hover{
+        border-radius: 0;
+    }
 }
 .awesome-icon i{ 
     color: $white-color;
