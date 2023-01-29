@@ -949,7 +949,14 @@
 
 @media (max-width: 1399.98px) {}
 @media (max-width: 1199.98px) {}
-@media (max-width: 991.98px) {}
+@media (max-width: 991.98px) {
+    .faq-area .accordion .single-item:before {
+        left: 11%;
+    }
+    .faq-area {
+        padding: 50px 0;
+    }
+}
 @media (max-width: 767.98px) {
     .nav-link.pricing,.nav-link.pricing2 {
         padding: 14px 50px;
@@ -960,6 +967,14 @@
     .main-pricing-area {
         padding: 30px 0 30px 0 !important;
     }
+    .faq-area .accordion .single-item .accordion-header .accordion-button {
+        font-size: 16px;
+    }
+    .faq-area .accordion .single-item .accordion-body {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
 }
 @media (max-width: 575.98px) {
     .main-pricing-area.home7 .pricing-sub-title {
@@ -968,5 +983,11 @@
     }
     .main-pricing-area.home7 .pricing-title,.pricing-area .section-title .main-heading {
         font-size: 28px;
+    }
+    .faq-area .accordion .single-item:before {
+        left: 16%;
+    }
+    .faq-area {
+        padding: 20px 0;
     }
 }

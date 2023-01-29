@@ -1,57 +1,62 @@
-@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
-.panel-title>a:before {
-    float: left !important;
-    font-size: $fs18;
-    font-family: FontAwesome;
-    content: "\f068";
-    padding-right: 5px;
-    color: $primary-color;
-}
-
-.panel-title>a.collapsed:before {
-    float: left !important;
-    content: "\f067";
-    font-size: $fs18;
-    color: $primary-color;
-}
-
-.panel-title>a:hover,
-.panel-title>a:active,
-.panel-title>a:focus {
-    text-decoration: none;
-}
-
 .faq-area{
-    background-color: $videobg-color;
-    .accrodion-group-item{
-        border: none;
-        .panel-default{
-            border: none;
-            margin: 10px 0;
-            .panel-heading{
-                background-color: $white-color;
-                .custom-title{
-                    color: $para-color;
+    padding: 100px 0;
+    .accordion{
+        .single-item{
+            padding: 0 90px;
+            border-top: 1px solid #ddd;
+            margin: 20px 0;
+            position: relative;
+            &:before{
+                content: "";
+                position: absolute;
+                top: 3px;
+                left: 7%;
+                height: 90%;
+                width: 2px;
+                margin: auto;
+                background-color: rgb(241, 234, 234);
+            }
+            .accordion-header{
+                
+                .accordion-button{
                     font-size: 18px;
-                    padding: 9px 0;
-                    a{}
+                    &:after {
+                        color: #0c63e4;
+                        content: "\2b";
+                        font-size: 34px;
+                        top: -10px;
+                        left: -60px;
+                        margin-right: auto;
+                        position: absolute;
+                        transition: transform .2s ease-in-out;
+                    }
                 }
-                .panel-body{
-                    border: none;
+                .accordion-button:not(.collapsed) {
+                    color: #0c63e4;
+                    background-color: transparent;
+                    box-shadow: none;
                     
                 }
+                .accordion-button::after {
+                    background-image: none;
+                }
+                .accordion-button:not(.collapsed)::after {
+                    background-image: none;
+                    content: "\f068";
+                    font-size: 24px;
+                    font-family: "Font Awesome 6 free";
+                    left: -60px;
+                    margin-right: auto;
+                    position: absolute;
+                    top: 23px;
+                    transition: transform .2s ease-in-out;
+                }
+            }
+            .accordion-body{
+                font-size: 16px;
+                line-height: 28px;
+                
             }
         }
     }
-    .panel-group .panel-heading+.panel-collapse>.panel-body, .panel-group .panel-heading+.panel-collapse>.list-group {
-        border-top: none;
-    }
 }
-
-.accodion-tabs-para{
-    font-size: 16px;
-}
-// .accodion-tabs-title{
-//     font-size: 18px;
-//     line-height: 60px;
-// }

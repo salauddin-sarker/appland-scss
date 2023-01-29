@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -1727,55 +1726,60 @@ button#review-tab.active {
   width: auto;
 }
 
-.panel-title > a:before {
-  float: left !important;
-  font-size: 18px;
-  font-family: FontAwesome;
-  content: "\f068";
-  padding-right: 5px;
-  color: #6f62ea;
-}
-
-.panel-title > a.collapsed:before {
-  float: left !important;
-  content: "\f067";
-  font-size: 18px;
-  color: #6f62ea;
-}
-
-.panel-title > a:hover,
-.panel-title > a:active,
-.panel-title > a:focus {
-  text-decoration: none;
-}
-
 .faq-area {
-  background-color: #f8fafc;
+  padding: 100px 0;
 }
-.faq-area .accrodion-group-item {
-  border: none;
+.faq-area .accordion .single-item {
+  padding: 0 90px;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+  position: relative;
 }
-.faq-area .accrodion-group-item .panel-default {
-  border: none;
-  margin: 10px 0;
+.faq-area .accordion .single-item:before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 7%;
+  height: 90%;
+  width: 2px;
+  margin: auto;
+  background-color: rgb(241, 234, 234);
 }
-.faq-area .accrodion-group-item .panel-default .panel-heading {
-  background-color: #ffffff;
-}
-.faq-area .accrodion-group-item .panel-default .panel-heading .custom-title {
-  color: #282835;
+.faq-area .accordion .single-item .accordion-header .accordion-button {
   font-size: 18px;
-  padding: 9px 0;
 }
-.faq-area .accrodion-group-item .panel-default .panel-heading .panel-body {
-  border: none;
+.faq-area .accordion .single-item .accordion-header .accordion-button:after {
+  color: #0c63e4;
+  content: "+";
+  font-size: 34px;
+  top: -10px;
+  left: -60px;
+  margin-right: auto;
+  position: absolute;
+  transition: transform 0.2s ease-in-out;
 }
-.faq-area .panel-group .panel-heading + .panel-collapse > .panel-body, .faq-area .panel-group .panel-heading + .panel-collapse > .list-group {
-  border-top: none;
+.faq-area .accordion .single-item .accordion-header .accordion-button:not(.collapsed) {
+  color: #0c63e4;
+  background-color: transparent;
+  box-shadow: none;
 }
-
-.accodion-tabs-para {
+.faq-area .accordion .single-item .accordion-header .accordion-button::after {
+  background-image: none;
+}
+.faq-area .accordion .single-item .accordion-header .accordion-button:not(.collapsed)::after {
+  background-image: none;
+  content: "\f068";
+  font-size: 24px;
+  font-family: "Font Awesome 6 free";
+  left: -60px;
+  margin-right: auto;
+  position: absolute;
+  top: 23px;
+  transition: transform 0.2s ease-in-out;
+}
+.faq-area .accordion .single-item .accordion-body {
   font-size: 16px;
+  line-height: 28px;
 }
 
 @media (max-width: 1399.98px) {
@@ -2529,6 +2533,14 @@ button#review-tab.active {
     line-height: 30px;
   }
 }
+@media (max-width: 991.98px) {
+  .faq-area .accordion .single-item:before {
+    left: 11%;
+  }
+  .faq-area {
+    padding: 50px 0;
+  }
+}
 @media (max-width: 767.98px) {
   .nav-link.pricing, .nav-link.pricing2 {
     padding: 14px 50px;
@@ -2539,6 +2551,13 @@ button#review-tab.active {
   .main-pricing-area {
     padding: 30px 0 30px 0 !important;
   }
+  .faq-area .accordion .single-item .accordion-header .accordion-button {
+    font-size: 16px;
+  }
+  .faq-area .accordion .single-item .accordion-body {
+    font-size: 14px;
+    line-height: 26px;
+  }
 }
 @media (max-width: 575.98px) {
   .main-pricing-area.home7 .pricing-sub-title {
@@ -2547,5 +2566,11 @@ button#review-tab.active {
   }
   .main-pricing-area.home7 .pricing-title, .pricing-area .section-title .main-heading {
     font-size: 28px;
+  }
+  .faq-area .accordion .single-item:before {
+    left: 16%;
+  }
+  .faq-area {
+    padding: 20px 0;
   }
 }/*# sourceMappingURL=style.css.map */
