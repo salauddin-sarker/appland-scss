@@ -1782,6 +1782,102 @@ button#review-tab.active {
   line-height: 28px;
 }
 
+.error-area {
+  padding: 325px 0 226px 0;
+  background-image: url("../images/banner/error-bg.png");
+}
+.error-area .error-content {
+  text-align: center;
+}
+.error-area .error-content .error-image {
+  padding-bottom: 65px;
+}
+.error-area .error-content .error-text .opps-text {
+  color: #1a264a;
+  font-size: 32px;
+  line-height: 40px;
+}
+.error-area .error-content .error-text .para-text {
+  color: #797988;
+  font-size: 17px;
+  line-height: 32px;
+}
+.error-area .error-content .error-search-input {
+  padding-top: 34px;
+  display: flex;
+  justify-content: center;
+}
+.error-area .error-content .error-search-input .search {
+  position: relative;
+}
+.error-area .error-content .error-search-input .search input {
+  padding: 22px 352px 22px 28px;
+  border-radius: 30px;
+  border: none;
+  outline: 1px solid #6f62ea;
+}
+.error-area .error-content .error-search-input .search i {
+  background-color: #6f62ea;
+  font-size: 20px;
+  right: -1px;
+  border-radius: 30px;
+  top: 0px;
+  position: absolute;
+  padding: 24px 35px;
+}
+.error-area .error-content .error-search-input .back-home button {
+  border-radius: 30px;
+  background: transparent;
+  outline: 1px solid #6f62ea;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #6f62ea;
+  border: none;
+  margin-left: 20px;
+  padding: 23px 35px;
+}
+
+.error-footer {
+  background-color: #292c34;
+  padding: 63px 0;
+}
+.error-footer .copy-area span {
+  color: #797988;
+}
+.error-footer .error-footer-menu ul li {
+  padding: 5px 12px;
+  position: relative;
+}
+.error-footer .error-footer-menu ul li a {
+  color: #797988;
+  font-size: 14px;
+  display: inline-block;
+  transition: all 0.3s;
+}
+.error-footer .error-footer-menu ul li a:hover {
+  color: #6f62ea;
+}
+.error-footer .error-footer-menu ul li:not(:last-child) a:after {
+  background-color: #797988;
+  content: "";
+  height: 50%;
+  width: 2px;
+  background-color: #797988;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+.error-footer .footer-social-icon i {
+  color: #797988;
+  font-size: 14px;
+  transition: all 0.3s;
+  padding: 5px;
+}
+.error-footer .footer-social-icon i:hover {
+  color: #6f62ea;
+}
+
 @media (max-width: 1399.98px) {
   .home4-banner-area {
     height: 800px;
@@ -2572,5 +2668,81 @@ button#review-tab.active {
   }
   .faq-area {
     padding: 20px 0;
+  }
+}
+@media (max-width: 1199.98px) {
+  .error-area {
+    padding: 170px 0 100px 0;
+  }
+}
+@media (max-width: 991.98px) {
+  header.home6 .header-top .get-now-btn a {
+    padding: 9px 23px;
+  }
+  .error-area .error-content .error-search-input .search input {
+    padding: 22px 230px 22px 28px;
+  }
+  .error-footer .error-footer-menu ul li {
+    padding: 4px 7px;
+  }
+  .error-footer .error-footer-menu ul li a {
+    font-size: 12px;
+  }
+  .error-footer .footer-social-icon i {
+    color: #797988;
+    font-size: 12px;
+    padding: 4px;
+  }
+}
+@media (max-width: 767.98px) {
+  .error-area .error-content .error-search-input .search input {
+    padding: 15px 100px 15px 15px;
+  }
+  .error-area .error-content .error-search-input .search i {
+    font-size: 15px;
+    right: -2px;
+    top: 0px;
+    padding: 20px 32px;
+  }
+  .error-area .error-content .error-search-input .back-home button {
+    font-size: 12px;
+    margin-left: 10px;
+    padding: 18px 30px;
+  }
+}
+@media (max-width: 575.98px) {
+  .error-area {
+    padding: 60px 0 50px 0;
+  }
+  .error-area .error-content .error-text .opps-text {
+    font-size: 25px;
+    line-height: 36px;
+  }
+  .error-area .error-content .error-text .opps-text .error-area .error-content .error-text .para-text {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .error-area .error-content .error-search-input .search input {
+    padding: 15px 22px 15px 10px;
+  }
+  .error-area .error-content .error-search-input .search i {
+    font-size: 15px;
+    right: -3px;
+    padding: 20px 27px;
+  }
+  .error-area .error-content .error-search-input .back-home button {
+    font-size: 9px;
+    margin-left: 7px;
+    font-weight: 700;
+    padding: 18px 6px;
+  }
+  .error-footer .offset-4 {
+    margin-left: 0;
+  }
+  .error-area .error-content .error-image {
+    padding-bottom: 30px;
+  }
+  .error-footer {
+    padding: 30px 0;
   }
 }/*# sourceMappingURL=style.css.map */

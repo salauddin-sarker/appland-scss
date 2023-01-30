@@ -1,0 +1,115 @@
+// error
+.error-area{
+    padding: 325px 0 226px 0;
+    background-image: url("../images/banner/error-bg.png");
+    .error-content{
+        text-align: center;
+        .error-image{
+            padding-bottom: 65px;
+            img{}
+        }
+        .error-text{
+            .opps-text{
+                color: $title-color;
+                font-size: 32px;
+                line-height: 40px;
+            }
+            .para-text{
+                color: $gray-color;
+                font-size: 17px;
+                line-height: 32px;
+            }
+        }
+        .error-search-input{
+            padding-top: 34px;
+            display: flex;
+            justify-content: center;
+            .search{
+                position: relative;
+                input{
+                    padding: 22px 352px 22px 28px;
+                    border-radius: 30px;
+                    border: none;
+                    outline: 1px solid $primary-color;
+                }
+                i{
+                    background-color: #6f62ea;
+                    font-size: 20px;
+                    right: -1px;
+                    border-radius: 30px;
+                    top: 0px;
+                    position: absolute;
+                    padding: 24px 35px;
+                }
+            }
+            .back-home{
+                button{
+                    border-radius: 30px;
+                    background: transparent;
+                    outline: 1px solid $primary-color;
+                    font-size: 14px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    color: $primary-color;
+                    border: none;
+                    margin-left: 20px;
+                    padding: 23px 35px;
+                }
+            }
+            
+            
+        }
+    }
+    
+}
+.error-footer{
+    background-color: #292c34;
+    padding: 63px 0;
+    .copy-area{
+        span{
+            color: $gray-color;
+            a{}
+        }
+    }
+    .error-footer-menu{
+        ul{
+            li{
+                padding: 5px 12px;
+                position: relative;
+                
+                a{
+                    color: $gray-color;
+                    font-size: 14px;
+                    display: inline-block;
+                    transition: all .3s;
+                    &:hover{
+                        color: $primary-color;
+                    }
+                }
+            }
+            li:not(:last-child)a{
+                &:after{
+                    background-color: $gray-color;
+                    content: "";
+                    height: 50%;
+                    width: 2px;
+                    background-color: $gray-color;
+                    position: absolute;
+                    right: 0;
+                    top: 10px;
+                }
+            }
+        }
+    }
+    .footer-social-icon{
+        i{
+            color: $gray-color;
+            font-size: 14px;
+            transition: all .3s;
+            padding: 5px;
+            &:hover{
+                color: $primary-color;
+            }
+        }
+    }
+}
