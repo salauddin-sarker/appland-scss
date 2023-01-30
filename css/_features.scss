@@ -3,9 +3,8 @@
     padding: 121px 0 33px 0;
     background-color: white !important;
     .features-content{
-        padding-bottom: 88px;
        .features-text{
-        padding-top: 160px;
+        padding-top: 120px;
        }
     }
     .features-content{
@@ -230,4 +229,52 @@
 
 .awfeatures-image img{
     margin-left: 47px;
+}
+
+// about (features)
+.features-area{
+    background-color: $white-color;
+    padding: 121px 0 22px 0;
+    .section-title{
+        .main-heading{
+            color: $title-color;
+            font-size: $fs36;
+            line-height: 28px;
+            margin-bottom: 18px;
+            text-align: center;
+        }
+        .sub-heading{
+            color: $para-color;
+            font-size: $fs16;
+            font-weight: 400;
+            line-height: 28px;
+            text-align: center;
+        }
+    }
+    .features-icon{
+        left: 0;
+        height: 173px;
+        margin-bottom: 38px;
+        margin: auto;
+        position: relative;
+        top: 0;
+        width: 130px;
+        img{}
+    }
+    .features-content{
+        margin-top: 40px;
+        text-align: center;
+        .features-heading{
+            color: #282835;
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .features-para{
+            color: var(--para);
+            font-size: 16px;
+            line-height: 28px;
+            padding: 0 56px;
+        }
+    }
 }

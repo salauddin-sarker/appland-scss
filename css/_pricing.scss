@@ -3,6 +3,7 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 .main-pricing-area.home7{
+    background-color: $videobg-color;
     padding: 116px 0 122px 0;
     .pricing-title{
         @include pricing-title;

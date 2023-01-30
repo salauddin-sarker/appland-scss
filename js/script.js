@@ -103,3 +103,12 @@ function bgoverlyFunction2() {
 function bgoverlyFunction3() {
   document.getElementById("bg-over3").style.display = "none";
 }
+
+
+
+// video overly on click function
+
+
+function videooverlyFunction() {
+  document.getElementById("videobg").style.display = "none";
+}

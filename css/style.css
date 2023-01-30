@@ -514,11 +514,8 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
   padding: 121px 0 33px 0;
   background-color: white !important;
 }
-.features-area .features-content {
-  padding-bottom: 88px;
-}
 .features-area .features-content .features-text {
-  padding-top: 160px;
+  padding-top: 120px;
 }
 .features-area .features-content .features-image1 {
   padding-left: 144px;
@@ -749,6 +746,50 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
 
 .awfeatures-image img {
   margin-left: 47px;
+}
+
+.features-area {
+  background-color: #ffffff;
+  padding: 121px 0 22px 0;
+}
+.features-area .section-title .main-heading {
+  color: #1a264a;
+  font-size: 36px;
+  line-height: 28px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+.features-area .section-title .sub-heading {
+  color: #282835;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+}
+.features-area .features-icon {
+  left: 0;
+  height: 173px;
+  margin-bottom: 38px;
+  margin: auto;
+  position: relative;
+  top: 0;
+  width: 130px;
+}
+.features-area .features-content {
+  margin-top: 40px;
+  text-align: center;
+}
+.features-area .features-content .features-heading {
+  color: #282835;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.features-area .features-content .features-para {
+  color: var(--para);
+  font-size: 16px;
+  line-height: 28px;
+  padding: 0 56px;
 }
 
 .user-count-area {
@@ -1257,7 +1298,7 @@ body {
   color: #246efb;
 }
 .home6.team-area .team-content .team-single-content:hover {
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 4px 6px 0px;
 }
 
 .main-team-area .team-content .team-single-content {
@@ -1304,7 +1345,7 @@ body {
   color: #246efb;
 }
 .main-team-area .team-content .team-single-content:hover {
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 4px 6px 0px;
 }
 .main-team-area .team-content .team-single-content {
   background-color: #f8fafc;
@@ -1319,6 +1360,7 @@ body {
 }
 
 .main-pricing-area.home7 {
+  background-color: #f8fafc;
   padding: 116px 0 122px 0;
 }
 .main-pricing-area.home7 .pricing-title {
@@ -1780,6 +1822,63 @@ button#review-tab.active {
 .faq-area .accordion .single-item .accordion-body {
   font-size: 16px;
   line-height: 28px;
+}
+
+.disover-area .video-player-content {
+  position: relative;
+}
+.disover-area .video-player-content .o-video {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  padding-top: 56.25%;
+}
+.disover-area .video-player-content .o-video iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.disover-area .video-player-content img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.9s;
+  width: 100%;
+  height: 100%;
+}
+.disover-area .vedio-right-content {
+  position: relative;
+  margin-top: 102px;
+}
+.disover-area .vedio-right-content .analytics-content {
+  background-color: #ffffff;
+  left: -232px;
+  position: absolute;
+  padding-top: 112px;
+  padding-left: 82px;
+}
+.disover-area .vedio-right-content .analytics-content .powtitle {
+  color: #1a264a;
+  font-size: 35px;
+  line-height: 60px;
+  position: relative;
+}
+.disover-area .vedio-right-content .analytics-content .analytics-para p {
+  padding-right: 165px;
+  color: #585e68;
+  font-size: 18px;
+  line-height: 32px;
+}
+.disover-area .vedio-right-content .analytics-content .play-the-btn {
+  padding-bottom: 136px;
+}
+.disover-area .vedio-right-content .analytics-content .play-the-btn a {
+  color: #000000;
+  text-transform: uppercase;
+  border-bottom: 1px solid #000000;
 }
 
 @media (max-width: 1399.98px) {
