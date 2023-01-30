@@ -1824,7 +1824,6 @@ button#review-tab.active {
   line-height: 28px;
 }
 
-<<<<<<< HEAD
 .disover-area .video-player-content {
   position: relative;
 }
@@ -1880,7 +1879,8 @@ button#review-tab.active {
   color: #000000;
   text-transform: uppercase;
   border-bottom: 1px solid #000000;
-=======
+}
+
 .error-area {
   padding: 325px 0 226px 0;
   background-image: url("../images/banner/error-bg.png");
@@ -1975,7 +1975,6 @@ button#review-tab.active {
 }
 .error-footer .footer-social-icon i:hover {
   color: #6f62ea;
->>>>>>> 5aff2e171b0ba56abeaeb769ae1c05b1a4d2c015
 }
 
 @media (max-width: 1399.98px) {
