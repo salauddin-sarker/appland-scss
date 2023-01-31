@@ -683,6 +683,9 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
   padding-right: 95px;
 }
 
+.features-area.home6 {
+  padding-bottom: 234px;
+}
 .features-area.home6 .features-content .features-text a {
   border-radius: 30px;
   border: 1px solid #ffffff;
