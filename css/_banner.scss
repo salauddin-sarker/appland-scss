@@ -27,20 +27,20 @@
         .banner-btn{
             .banner-btn-uniq{
                 @include global-btn;
-                color: $home6-color !important;
+                color: $white-color;
                 padding: 21px 41px;
                 &:hover{
                     background-color: $white-color;
-                    color: $white-color !important;
+                    color: $dark-color;
                 }
             }
             // a{}
             i{
-                color: $dark-color !important;
+                color: $white-color ;
                 font-size: $fs30;
                 padding: 0 18px;
                 &:hover{
-                    color: $home6-color !important;
+                    color: $home6-color;
                 }
             }
         }

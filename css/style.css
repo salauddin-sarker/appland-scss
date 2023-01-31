@@ -212,6 +212,51 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
   color: #ffffff !important;
 }
 
+.drop-menu {
+  background-color: #ffffff;
+  transform: scaleY(0);
+  position: absolute;
+  padding-left: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  transition: all 0.5s;
+  text-align: left;
+  transform-origin: 0 0 0;
+  top: 170%;
+  visibility: hidden;
+  width: 270px;
+  z-index: 2;
+}
+
+.main-nav > ul > li:hover > .drop-menu {
+  display: grid;
+  transform: scaleY(1);
+  top: 68%;
+  visibility: visible;
+}
+
+.drop-holder {
+  position: relative;
+}
+
+.drop-menu li a::before {
+  background-color: transparent !important;
+}
+
+.drop-menu a {
+  color: #1ba555 !important;
+  transition: all 0.5s;
+}
+
+.drop-menu > li {
+  padding: 15px 0 !important;
+}
+
+.drop-menu a:hover {
+  color: #1ba555;
+  padding-left: 15px;
+}
+
 .home4-banner-area {
   background-image: url("../images/banner/home4-banner.png");
   background-size: contain;
@@ -246,20 +291,20 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
   font-weight: bold;
   padding: 9px 36px;
   transition: all 0.5s;
-  color: #246efb !important;
+  color: #ffffff;
   padding: 21px 41px;
 }
 .home4-banner-area .banner-left-content .banner-btn .banner-btn-uniq:hover {
   background-color: #ffffff;
-  color: #ffffff !important;
+  color: #000000;
 }
 .home4-banner-area .banner-left-content .banner-btn i {
-  color: #000000 !important;
+  color: #ffffff;
   font-size: 30px;
   padding: 0 18px;
 }
 .home4-banner-area .banner-left-content .banner-btn i:hover {
-  color: #246efb !important;
+  color: #246efb;
 }
 .home4-banner-area .banner-right-content {
   position: relative;
