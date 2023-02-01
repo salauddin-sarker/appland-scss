@@ -40,7 +40,9 @@
         }
     }
 }
-
+.user-count-area.home6.home7.bg-user-1{
+    background-image: url("../images/banner/userbg.png");
+}
 .user-count-area.home6{
     background-image: url("../images/blog/home6-user.png");
 }
@@ -53,4 +55,18 @@
     letter-spacing: 1px;
     padding: 25px 111px;
     transition: all 0.3s;
+}
+.count-area{
+    .user-count{
+        .stat-number{
+            font-size: 50px;
+        }
+        .count-text{
+            font-size: 50px;
+        }
+    }
+    .count-help{}
+    a{
+
+    }
 }

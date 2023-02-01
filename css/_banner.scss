@@ -3,10 +3,9 @@
     background-image: url('../images/banner/home4-banner.png');
     background-size: contain;
     background-position: center;
-    height: 100vh;
     width: 100%;
+    padding-bottom: 322px;
     .banner-left-content{
-        // position: absolute;
         position: relative;
         top: 59%;
         .banner-heading{
@@ -52,7 +51,7 @@
         animation: rotateEarth 7s infinite;
     }
 }
-.home4-banner-area.home5{
+.home4-banner-area.home6{
   background-image: none;
   .banner-left-content{
     .banner-heading{
@@ -69,13 +68,12 @@
             padding: 20px 42px;
             &:hover{
                 background-color: $btnbg-color;
-                color: $white-color;
+                color: $dark-color;
                 border: 1px solid transparent;
             }
         }
         // a{}
         i{
-            color: $white-color;
             font-size: $fs30;
             padding: 0 18px;
         }
@@ -114,7 +112,7 @@
           }
           // a{}
           i{
-              color: $white-color;
+              color: $primary-color;
               font-size: $fs30;
               padding: 0 18px;
           }
