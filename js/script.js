@@ -112,3 +112,20 @@ function bgoverlyFunction3() {
 function videooverlyFunction() {
   document.getElementById("videobg").style.display = "none";
 }
+
+
+// scrollTop
+var btn = $('#back-to-top');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+// top-to-back
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
