@@ -125,7 +125,7 @@ button#review-tab.active{
     border-radius: 40px;
     border: 1px solid rebeccapurple;
     background: transparent;
-    color: var(--dark);
+    color: $dark-color;
     font-size: 14px;
     line-height: 40px;
     padding: 9px 75px;
@@ -136,3 +136,4 @@ button#review-tab.active{
     background: linear-gradient(to right, #4b0dd3 0%, #9700ff 100%);
     color: $white-color;
 }
+

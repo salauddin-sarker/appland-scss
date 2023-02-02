@@ -1,4 +1,24 @@
 @charset "UTF-8";
+.header1 {
+  background-color: #1ba555;
+}
+
+.header2 {
+  background-color: #246efb;
+}
+
+.header3 {
+  background-color: #ebf1fb;
+}
+
+.header4 {
+  background-color: #1287ff;
+}
+
+.menu-bg {
+  background-image: url(../images/banner/menubg.png);
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -127,10 +147,12 @@ img {
 }
 
 header .header-top {
+  width: 100%;
   left: 0;
   min-height: 80px;
-  position: absolute;
+  position: fixed;
   width: 100%;
+  z-index: 999999;
 }
 header .header-top .container-fluid {
   padding: 0px 80px;
@@ -275,7 +297,7 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
 .main-nav > ul > li:hover > .drop-menu {
   display: grid;
   transform: scaleY(1);
-  top: 68%;
+  top: 100%;
   visibility: visible;
 }
 
@@ -299,6 +321,29 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
 .drop-menu a:hover {
   color: #1ba555;
   padding-left: 15px;
+}
+
+/* layout/header.css */
+.header {
+  background-color: #fff;
+  padding-block: 1em;
+}
+
+.header::after {
+  bottom: 0;
+  box-shadow: 0 0.0625em 0.5em rgba(0, 0, 0, 0.3);
+  content: "";
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: opacity 0.3s;
+  z-index: -1;
+}
+
+.header.is-active::after {
+  opacity: 1;
 }
 
 .home4-banner-area {
@@ -519,7 +564,7 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
     left: 14px;
   }
   50% {
-    top: 130px;
+    top: 138px;
   }
   75% {
     right: 20px;
@@ -537,7 +582,7 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
     left: 14px;
   }
   50% {
-    top: 130px;
+    top: 138px;
   }
   75% {
     right: 20px;
@@ -1503,41 +1548,41 @@ body {
   background-color: #246efb;
   color: #ffffff;
 }
-.main-pricing-area.home7 .pricing-content .pricing-image {
+.main-pricing-area.home7 .pricing-content .pricing-single-item .pricing-image {
   margin-bottom: 39px;
 }
-.main-pricing-area.home7 .pricing-content .pricing-heading {
+.main-pricing-area.home7 .pricing-content .pricing-single-item .pricing-heading {
   color: #246efb;
   font-size: 24px;
   line-height: 27px;
   padding-bottom: 20px;
 }
-.main-pricing-area.home7 .pricing-content .pricing-list li {
+.main-pricing-area.home7 .pricing-content .pricing-single-item .pricing-list li {
   line-height: 38px;
   font-size: 16px;
 }
-.main-pricing-area.home7 .pricing-content .pricing-package {
+.main-pricing-area.home7 .pricing-content .pricing-single-item .pricing-package {
   position: relative;
   margin-top: 45px;
 }
-.main-pricing-area.home7 .pricing-content .pricing-package sup, .main-pricing-area.home7 .pricing-content .pricing-package sub {
+.main-pricing-area.home7 .pricing-content .pricing-single-item .pricing-package sup, .main-pricing-area.home7 .pricing-content .pricing-single-item .pricing-package sub {
   color: #246efb;
   font-size: 26px;
   line-height: 40px;
 }
-.main-pricing-area.home7 .pricing-content .pricing-package span {
+.main-pricing-area.home7 .pricing-content .pricing-single-item .pricing-package span {
   color: #246efb;
   font-size: 65px;
   line-height: 30px;
   padding: 0 5px 0 20px;
 }
-.main-pricing-area.home7 .pricing-content .pricing-package sup {
+.main-pricing-area.home7 .pricing-content .pricing-single-item .pricing-package sup {
   position: absolute;
 }
-.main-pricing-area.home7 .pricing-content .pricing-btn {
+.main-pricing-area.home7 .pricing-content .pricing-single-item .pricing-btn {
   margin-top: 60px;
 }
-.main-pricing-area.home7 .pricing-content .pricing-btn a {
+.main-pricing-area.home7 .pricing-content .pricing-single-item .pricing-btn a {
   background-color: transparent;
   border-radius: 30px;
   border: 1px solid #246efb;
@@ -1546,6 +1591,22 @@ body {
   line-height: 35px;
   padding: 19px 53px;
   transition: all 0.3s;
+}
+.main-pricing-area.home7 .pricing-content .base-tie {
+  position: relative;
+}
+.main-pricing-area.home7 .pricing-content .base-tie:before {
+  content: " BEST VALUE";
+  font-size: 10px;
+  position: absolute;
+  right: -53px;
+  top: 24px;
+  background-color: #246efb;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 22px 77px;
+  transition: all 0.3s;
+  transform: rotate(45deg);
 }
 .main-pricing-area.home7 .pricing-image img {
   min-height: 68px;
@@ -1670,7 +1731,7 @@ button#review-tab.active {
   border-radius: 40px;
   border: 1px solid rebeccapurple;
   background: transparent;
-  color: var(--dark);
+  color: #000000;
   font-size: 14px;
   line-height: 40px;
   padding: 9px 75px;
