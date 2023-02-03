@@ -1,0 +1,243 @@
+// utilities
+html, body{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+h1,h2,h3,h4,h5{
+    font-weight: bold;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+   max-width: 100%;
+}
+
+.home6-color{
+    color: $home6_color;
+}
+@mixin main-heading {
+    color: var(--para);
+    font-size: $fs36;
+    line-height: 28px;
+    margin-bottom: 18px;
+    text-align: center;
+}
+@mixin sub-heading{
+    color: $para-color;
+    font-size: $fs16;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+}
+@mixin section-title{
+    color: $title-color;
+    font-size: 35px;
+    line-height: 60px;
+    text-align: center;
+}
+@mixin section-sub-title{
+    color: $gray-color;
+    font-size: $fs16;
+    line-height: 28px;
+    max-width: 520px;
+    margin: auto;
+    padding-bottom: 71px;
+}
+@mixin global-btn{
+    border-radius: 30px;
+    border: 1px solid $white-color;
+    color: $white-color;
+    font-size: $fs16;
+    font-weight: bold;
+    padding: 9px 36px;
+    transition: all 0.5s;
+}
+@mixin gfeatures-title{
+    color: $title-color;
+    font-size: $fs36;
+    font-weight: bold;
+    line-height: 45px;
+}
+@mixin f-title {
+    color: $white-color;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 34px;
+
+}
+
+@mixin team-content{
+    .team-single-content{
+        background-color: $white-color;
+        text-align: center;
+        transition: all .3s;
+        .team-image{
+            img{
+                width: 100%;
+            }
+        }
+        .team-details{
+            .team-name{
+                color: $title-color;
+                font-size: 18px;
+                font-weight: normal;
+                line-height: 20px;
+                padding-top: 38px;
+                text-transform: capitalize;
+            }
+            .job-title{
+                color: $gray-color;
+                display: block;
+                font-size: 15px;
+                line-height: 15px;
+                padding-bottom: 19px;
+                text-transform: capitalize;
+            }
+        }
+        .team-text{
+            color: $para-color;
+            font-size: 15px;
+            line-height: 29px;
+            max-width: 245px;
+            margin: auto;
+        }
+        .team-social-link{
+            padding-top: 17px;
+            padding-bottom: 33px;
+            i{
+                font-size: 22px;
+                padding: 5px 7px;
+                transition:  all .3s;
+                &:hover{
+                    color: $home6-color;
+                }
+            }
+        }
+        &:hover{
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+    }
+}
+@mixin pricing-title{
+    font-size: 36px;
+    color: $title-color;
+    text-align: center;
+}
+@mixin pricing-sub-title{
+    font-size: 16px;
+    line-height: 28px;
+    margin: auto;
+    max-width: 610px;
+    padding: 15px 0 70px 0; 
+}
+@mixin pricing-content{
+    .pricing-single-item{
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+        padding-top: 40px;
+        padding-bottom: 72px;
+        overflow: hidden;
+        position: relative;
+        transition: all 3s;
+        &:hover:before{
+            transform: scaleX(1);
+            transform: rotate(45deg);
+        }
+        &:hover .pricing-btn a{
+            background-color: $home6-color;
+            color: $white-color;
+
+        }
+        &:before{
+            content: " BEST VALUE";
+            font-size: 10px;
+            position: absolute;
+            right: -53px;
+            top: 24px;
+            background-color: $home6-color;
+            color: $white-color;
+            text-transform: uppercase;
+            padding: 22px 77px;
+            transition: all .3s;
+            transform: scaleX(0);
+            overflow: hidden;
+            
+        }
+    }
+        .pricing-image{
+            margin-bottom: 39px;
+        //  img{}
+        }
+        .pricing-heading{
+            color: $home6-color;
+            font-size: $fs24;
+            line-height: 27px;
+            padding-bottom: 20px;
+        }
+        .pricing-list{
+         li{
+            line-height: 38px;
+            font-size: 16px;
+         }
+        }
+        .pricing-package{
+            position: relative;
+            margin-top: 45px;
+         sup,sub{
+            color: $home6-color;
+            font-size: 26px;
+            line-height: 40px;
+         }
+         span{
+            color: $home6-color;
+            font-size: 65px;
+            line-height: 30px;
+            padding: 0 5px 0 20px;
+         }
+         sup{
+            position: absolute;
+            // bottom: 40px;
+            // padding-right: 20px;
+            
+         }
+        }
+        .pricing-btn{
+            margin-top: 60px;
+         a{
+            background-color: transparent;
+            border-radius: 30px;
+            border: 1px solid $home6-color;
+            color: $home6-color;
+            font-size: $fs16;
+            line-height: 35px;
+            padding: 19px 53px;
+            transition: all .3s;
+         }
+        }
+}
+
+@mixin bg-gragient{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    background: linear-gradient(to right, #4a77e7 0%, #af95fb 30%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

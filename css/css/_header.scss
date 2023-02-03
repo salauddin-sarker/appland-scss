@@ -1,0 +1,165 @@
+// header4
+header{
+    .header-top{
+    left: 0;
+    min-height: 80px;
+    position: absolute;
+    width: 100%;
+        .container-fluid{
+            padding: 0px 80px;
+            .header-top .row{
+                align-items: center;
+                .blog-header-logo{
+                    max-width: 126px;
+                    height: auto;
+                }
+                .header-logo{
+                    a{
+                        img{
+                            max-width: 100px;
+                        }
+                    }
+                }
+            }
+        }
+        .main-nav{
+            ul{
+                li{
+                    display: inline-block;
+                    list-style: none;
+                    padding: 57px 21px;
+                    &:hover a:before{
+                        transform: scaleX(1);
+                    }
+                    a{
+                        color: white;
+                        font-size: $fs16;
+                        font-weight: 400;
+                        position: relative;
+                        &:before{
+                            background-color: $white-color;
+                            bottom: -2px;
+                            content: "";
+                            height: 1px;
+                            left: 0;
+                            position: absolute;
+                            transform: scaleX(0);
+                            transition: all .3s;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        .get-now-btn {
+            align-items: center;
+            display: flex;
+            a{
+                @include global-btn;
+                display: inline-block;
+                margin-left: 33px;
+            }
+            &:hover.get-now-btn a{
+                background-color:  $white-color;
+                color: $dark-color;
+            }
+           
+        }
+    }
+}
+// home5
+header.home5{
+    .header-top{
+        .container-fluid{
+            .header-top .row{
+                .header-logo{
+                    a{
+                        img{
+                            max-width: 100px;
+                        }
+                    }
+                }
+            }
+        }
+        .main-nav{
+            ul{
+                li{
+                    &:hover a{
+                        color: $btnbg-color;
+                    }
+                    &:hover a:before{
+                        transform: scaleX(1);
+                    }
+                    a{
+                        color: $dark-color;
+                        &:before{
+                            background-color: $btnbg-color;
+                        }
+                    }
+                }
+            }
+        }
+        .get-now-btn {
+            a{
+                @include global-btn;
+                color: $btnbg-color;
+                border-color: $btnbg-color;
+            }
+            &:hover.get-now-btn a{
+                background-color: $btnbg-color;
+                color: $white-color;
+            }
+           
+        }
+    }
+}
+// home6
+header.home6{
+    .header-top{
+        .container-fluid{
+            .header-top .row{
+                .blog-header-logo{
+                }
+                .header-logo{
+                    a{
+                        img{
+                            max-width: 100px;
+                        }
+                    }
+                }
+            }
+        }
+        .main-nav{
+            ul{
+                li{
+                    &:hover a{
+                        color: $home6-color !important;
+                    }
+                    &:hover a:before{
+                        transform: scaleX(1);
+                    }
+                    a{
+                        color: $dark-color;
+                        &:before{
+                            background-color: $home6-color;
+                        }
+                    }
+                }
+            }
+        }
+        .get-now-btn {
+            align-items: center;
+            display: flex;
+            a{
+                @include global-btn;
+                border-color: $home6-color !important;
+                color: $home6-color !important;
+            }
+            &:hover.get-now-btn a{
+                background-color:  $home6-color;
+                color: $white-color !important;
+            }
+           
+        }
+    }
+}
