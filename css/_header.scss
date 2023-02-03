@@ -212,7 +212,6 @@ header.sticky{
     transition: all .7s;
     scroll-behavior: smooth;
     box-shadow: 0px 1px 5px #fff;
-    z-index: 9999999;
     .header-top{
         width: 100%;
         left: 0;
@@ -223,7 +222,7 @@ header.sticky{
                     li{
                         display: inline-block;
                         list-style: none;
-                        padding: 40px 21px;
+                        padding: 40px 17px;
                         &:hover a:before{
                             transform: scaleX(1);
                         }

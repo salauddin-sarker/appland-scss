@@ -336,7 +336,6 @@ header.sticky {
   transition: all 0.7s;
   scroll-behavior: smooth;
   box-shadow: 0px 1px 5px #fff;
-  z-index: 9999999;
   background-color: #000000;
   z-index: 999;
 }
@@ -349,7 +348,7 @@ header.sticky .header-top {
 header.sticky .header-top .main-nav ul li {
   display: inline-block;
   list-style: none;
-  padding: 40px 21px;
+  padding: 40px 17px;
 }
 header.sticky .header-top .main-nav ul li:hover a:before {
   transform: scaleX(1);
@@ -959,7 +958,7 @@ header.sticky .header-top .main-nav ul li a:before {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 483px;
+  padding: 30px 0 80px 0;
 }
 .user-count-area .count-area {
   padding-top: 130px;
@@ -2166,6 +2165,12 @@ button#review-tab.active {
 }
 
 @media (max-width: 1399.98px) {
+  header.sticky .header-top .main-nav ul li {
+    padding: 40px 10px;
+  }
+  header.sticky .header-top .main-nav ul li a {
+    font-size: 14px;
+  }
   .home4-banner-area {
     background-size: cover;
   }
@@ -2543,6 +2548,8 @@ button#review-tab.active {
     color: #797988;
     font-size: 12px;
     max-width: 290px;
+    margin: auto;
+    padding-bottom: 20px;
   }
   .features-area .features-content .features-image {
     max-width: 60%;
