@@ -51,6 +51,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: none !important;
+}
+
 li {
   list-style: none;
 }
@@ -315,7 +319,7 @@ header.home6 .header-top .get-now-btn:hover.get-now-btn a {
 }
 
 .drop-menu a {
-  color: #1ba555 !important;
+  color: #000000 !important;
   transition: all 0.5s;
 }
 
