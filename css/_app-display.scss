@@ -27,7 +27,6 @@
             transition: all .3s;
             width: 152px;
             &:hover{
-                color: $white-color;
                 background-color: $btnbg-color;
             }
             i{
@@ -35,4 +34,18 @@
             }
         }
     }
+}
+.app-display-area.home7 .app-display-btn i,.app-display-area.home7 .app-display-btn a{
+    color: $home6-color !important;
+}
+.app-display-area.home7 .app-display-btn a{
+    border: 1px solid $home6-color;
+}
+.app-display-area.home7 .app-display-btn a:hover {
+    color: $dark-color !important;
+    background-color: transparent !important;
+}
+.app-display-area.home7 .app-display-btn :hover i{
+    color: $dark-color !important;
+    background-color: transparent !important;
 }

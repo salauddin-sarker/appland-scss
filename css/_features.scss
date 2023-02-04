@@ -69,6 +69,7 @@
         
         .o-video{
             position: relative;
+            margin: 10px 0;
             #bg-over1,#bg-over2,#bg-over3{
                 position: absolute;
                 top: 0;
@@ -122,7 +123,10 @@
 }
 // home6
 
-
+.explore-features-area.home6.team-area{
+    background-color: $videobg-color;
+    padding-bottom: 90px;
+}
 .features-area.home6{
     padding-bottom: 234px;
     .features-content{
