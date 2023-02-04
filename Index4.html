@@ -97,15 +97,39 @@
             <div class="mobile-container">
                 <div class="topnav">
                   <a href="index4.html" class="active"><img src="./images/logo/Contact-logo.png" alt="Logo Image"></a>
-                  <div id="myLinks">
-                        <li><a href="index4.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="service.html">Services</a></li>
-                        <li><a href="team.html">Team</a></li>
+                  <div id="myLinks" role="tablist">
+                    
+                        <ul class="nav justify-content-center" role="tablist">
+                            <li class="tab__item nav-item">
+                                <a class="nav-link ms-5" data-bs-toggle="tab" href="#tab_list_home" role="tab" aria-selected="false">Home <i class="fa-solid fa-angle-down ps-5"></i></a>
+                                <div class="tab-content ps-5">
+                                    <div class="tab-pane fade ms-5" id="tab_list_home">
+                                        <a href="index5.html">Home 02</a>
+                                        <a href="index6.html">Home 03</a>
+                                        <a href="index7.html">Home 04</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <li><a href="#features">Features</a></li>
                         <li><a href="pricing.html">Pricing</a></li>
-                        <li><a href="testimonial.html">Testimonial</a></li>
-                        <li><a href="faq.html">Faq</a></li>
-                        <li><a href="error.html">Error</a></li>
+                        <li><a href="testimonial.html">Review</a></li>
+                        <li><a href="#count">Count</a></li>
+                        <li><a href="#app">App</a></li>
+                        <ul class="nav justify-content-center" role="tablist">
+                            <li class="tab__item nav-item">
+                                <a class="nav-link ms-5" data-bs-toggle="tab" href="#tab_list_page" role="tab" aria-selected="false">Pages <i class="fa-solid fa-angle-down ps-5"></i></a>
+                                <div class="tab-content ps-5">
+                                    <div class="tab-pane fade ms-5" id="tab_list_page">
+                                        <a href="about.html">About</a>
+                                        <a href="team.html">Team</a>
+                                        <a href="faq.html">Faq</a>
+                                        <a href="error.html">Error</a>
+                                        <a href="service.html">Services</a>
+                                    </div>
+                                </div>
+                            </li>                           
+                        </ul>
                   </div>
                   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars" onclick="changeIcon(this)"></i>
@@ -385,7 +409,7 @@
             </div>
         </section>
         <!-- ==========user-count-area========== -->
-        <section class="user-count-area home6 home7 bg-user-1">
+        <section class="user-count-area home6 home7 bg-user-1" id="count">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12 wow zoomIn">
@@ -404,7 +428,7 @@
             </div>
         </section>
         <!-- ==========testimonial-area========== -->
-        <section class="testimonial-area" id="testimonial">
+        <section class="testimonial-area" id="testimonial" >
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
@@ -513,7 +537,7 @@
         </section>
 
         <!-- ==========app-display-area========== -->
-        <section class="app-display-area">
+        <section class="app-display-area" id="app">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">

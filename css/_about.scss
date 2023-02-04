@@ -1,11 +1,21 @@
 
 .features-area.about{
-    padding-bottom: 109px;
+    padding-bottom: 119px;
    .features-content .features-para {
-        color: $para-color;
+        color: $gray-color;
         font-size: 16px;
         line-height: 28px;
-        padding: 0 0px;
+        max-width: 360px;
+        margin: auto;
+    }
+}
+.single-textimonial{
+    margin: 0 30px;
+}
+.about.client-single.brand-area{
+    background-color: #f8f8ff;
+    brand-content.single-textimonial{
+
     }
 }
 .disover-area{

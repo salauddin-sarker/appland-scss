@@ -5,7 +5,7 @@
     // header
     
     header.sticky .header-top .main-nav ul li{
-        padding: 40px 10px;
+        padding: 40px 7px;
         a {
             font-size: 14px;
         }
@@ -709,6 +709,9 @@
 }
 // home7
 @media (max-width: 1199.98px) {
+    .main-pricing-area.home7 .pricing-sub-title {
+        padding: 15px 135px 40px 135px;
+    }
     .banner-area.index2.home7 {
         .banner-left{
             .banner-content {
@@ -872,8 +875,8 @@
         padding: 24px 10px 18px 10px;
     }
     footer .footer-top .footer-content4 .f-text a img {
-        height: 130px;
-        width: 130px;
+       max-height: 130px;
+        max-width: 130px;
     }
 }
 
@@ -1017,6 +1020,9 @@
     .explore-features-area.home6.team-area {
         padding-bottom: 35px;
     }
+    * .wow{
+        animation: none;
+    }
 
 }
 @media (max-width: 575.98px) {
@@ -1034,10 +1040,10 @@
         padding: 20px 0;
     }
     .features-area {
-        padding: 0px 0 0px 0;
+        padding: 40px 0 0px 0;
     }
     .features-area .features-content {
-        padding-bottom: 0px;
+        padding-bottom: 40px;
     }
 }
 

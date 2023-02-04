@@ -148,9 +148,8 @@ img{
 @mixin pricing-sub-title{
     font-size: 16px;
     line-height: 28px;
-    margin: auto;
-    max-width: 610px;
-    padding: 15px 0 70px 0; 
+    text-align: center;
+    padding: 15px 313px 70px 313px; 
 }
 @mixin pricing-content{
     .base-tie{

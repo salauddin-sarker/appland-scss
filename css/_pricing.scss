@@ -2,6 +2,9 @@
 body{
     font-family: 'Quicksand', sans-serif;
 }
+.main-pricing-area#pricing{
+    background-color: transparent;
+}
 .main-pricing-area.home7{
     background-color: $videobg-color;
     padding: 116px 0 122px 0;
@@ -9,7 +12,10 @@ body{
         @include pricing-title;
     }
     .pricing-sub-title{
-        @include pricing-sub-title;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        padding: 15px 313px 70px 313px;
     }
     .pricing-content{
         @include pricing-content;
@@ -33,7 +39,7 @@ body{
         }
         .sub-heading{
             @include pricing-sub-title;
-            padding: 15px 0 133px 0;
+            padding: 15px 313px 153px 313px;
         }
     }
 }

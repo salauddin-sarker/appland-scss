@@ -1544,6 +1544,10 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
+.main-pricing-area#pricing {
+  background-color: transparent;
+}
+
 .main-pricing-area.home7 {
   background-color: #f8fafc;
   padding: 116px 0 122px 0;
@@ -1556,9 +1560,8 @@ body {
 .main-pricing-area.home7 .pricing-sub-title {
   font-size: 16px;
   line-height: 28px;
-  margin: auto;
-  max-width: 610px;
-  padding: 15px 0 70px 0;
+  text-align: center;
+  padding: 15px 313px 70px 313px;
 }
 .main-pricing-area.home7 .pricing-content .base-tie {
   overflow: hidden;
@@ -1667,10 +1670,9 @@ body {
 .pricing-area .section-title .sub-heading {
   font-size: 16px;
   line-height: 28px;
-  margin: auto;
-  max-width: 610px;
-  padding: 15px 0 70px 0;
-  padding: 15px 0 133px 0;
+  text-align: center;
+  padding: 15px 313px 70px 313px;
+  padding: 15px 313px 153px 313px;
 }
 
 section.main-pricing-area {
@@ -2026,15 +2028,23 @@ button#review-tab.active {
 }
 
 .features-area.about {
-  padding-bottom: 109px;
+  padding-bottom: 119px;
 }
 .features-area.about .features-content .features-para {
-  color: #282835;
+  color: #797988;
   font-size: 16px;
   line-height: 28px;
-  padding: 0 0px;
+  max-width: 360px;
+  margin: auto;
 }
 
+.single-textimonial {
+  margin: 0 30px;
+}
+
+.about.client-single.brand-area {
+  background-color: #f8f8ff;
+}
 .disover-area .video-player-content {
   position: relative;
 }
@@ -2192,7 +2202,7 @@ button#review-tab.active {
 
 @media (max-width: 1399.98px) {
   header.sticky .header-top .main-nav ul li {
-    padding: 40px 10px;
+    padding: 40px 7px;
   }
   header.sticky .header-top .main-nav ul li a {
     font-size: 14px;
@@ -2737,6 +2747,9 @@ button#review-tab.active {
   }
 }
 @media (max-width: 1199.98px) {
+  .main-pricing-area.home7 .pricing-sub-title {
+    padding: 15px 135px 40px 135px;
+  }
   .banner-area.index2.home7 .banner-left .banner-content .banner-heading {
     font-size: 32px;
     font-weight: 600;
@@ -2888,8 +2901,8 @@ button#review-tab.active {
     padding: 24px 10px 18px 10px;
   }
   footer .footer-top .footer-content4 .f-text a img {
-    height: 130px;
-    width: 130px;
+    max-height: 130px;
+    max-width: 130px;
   }
 }
 @media (max-width: 1399.98px) {
@@ -3029,6 +3042,10 @@ button#review-tab.active {
   .explore-features-area.home6.team-area {
     padding-bottom: 35px;
   }
+  * .wow {
+    -webkit-animation: none;
+            animation: none;
+  }
 }
 @media (max-width: 575.98px) {
   .main-pricing-area.home7 .pricing-sub-title {
@@ -3045,10 +3062,10 @@ button#review-tab.active {
     padding: 20px 0;
   }
   .features-area {
-    padding: 0px 0 0px 0;
+    padding: 40px 0 0px 0;
   }
   .features-area .features-content {
-    padding-bottom: 0px;
+    padding-bottom: 40px;
   }
 }
 @media (max-width: 1199.98px) {

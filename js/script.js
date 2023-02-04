@@ -31,6 +31,18 @@ $('.brand').slick({
     }
   ]
 })
+$('.single-textimonial').slick({
+    
+  arrows: false,
+  autoplay: true,
+  autoplaySpeed: 1000,
+  dots: true,
+  nav: true,
+  pauseOnHover:false,
+  speed: 5000,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+});
  
  // owl-carousel
   var owl = $('.owl-carousel');
