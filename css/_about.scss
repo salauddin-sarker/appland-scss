@@ -7,15 +7,64 @@
         line-height: 28px;
         max-width: 360px;
         margin: auto;
+        padding: inherit;
     }
 }
-.single-textimonial{
-    margin: 0 30px;
-}
 .about.client-single.brand-area{
-    background-color: #f8f8ff;
-    brand-content.single-textimonial{
+    padding-top: 92px;
+    .about-client-title{
+        .about-client-title{
+            padding-bottom: 7px;
+            color: $title-color;
+            font-size: 36px;
+        }
+        .about-client-subtitle{
+            color: $gray-color;
+            font-size: $fs16;
+            line-height: 28px;
+            max-width: 620px;
+            padding-bottom: 50px;
+            margin: auto;
+        }
+    }
+    .wraper-content{
+        background-color: $white-color;
+        position: relative;
+        margin-top: 60px;
+        .client-image{
+            img{
+                position: absolute;
+                top: -33%;
+                left: 38%;
+            }
+        }
+        .client-details{
+            text-align: center;
 
+            .client-name{
+                color: $title-color;
+                font-size: $fs18;
+                line-height: 24px;
+                padding-top: 69px;
+                font-weight: normal;
+                
+            }
+            .job-title{
+                color: $gray-color;
+                font-size: $fs16;
+                line-height: 26px;
+            }
+            .para{
+                color: $gray-color;
+                font-size: 22px;
+                line-height: 37px;
+                letter-spacing: 1px;
+                padding: 5px 0 54px 0;
+                max-width: 510px;
+                margin: auto;
+
+            }
+        }
     }
 }
 .disover-area{

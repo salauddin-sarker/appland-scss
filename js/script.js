@@ -33,13 +33,13 @@ $('.brand').slick({
 })
 $('.single-textimonial').slick({
     
-  arrows: false,
+  arrows: true,
   autoplay: true,
   autoplaySpeed: 1000,
   dots: true,
   nav: true,
   pauseOnHover:false,
-  speed: 5000,
+  speed: 1000,
   slidesToShow: 1,
   slidesToScroll: 1,
 });

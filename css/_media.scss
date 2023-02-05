@@ -40,6 +40,9 @@
     .features-area.home6 {
         padding-bottom: 70px;
     }
+    .about.client-single.brand-area .wraper-content .client-image img {
+        left: 38%;
+    }
 }
 
 
@@ -173,6 +176,9 @@
             
 
         }
+    }
+    .about.client-single.brand-area .wraper-content .client-image img {
+        left: 35%;
     }
     // testimonial
     .testimonial-area{
@@ -344,6 +350,9 @@
         font-size: 24px;
         padding: 0 9px;
     }
+    .about.client-single.brand-area .wraper-content .client-image img {
+        left: 32%;
+    }
     .support-area {
         .container {
             .support-content {
@@ -365,7 +374,7 @@
     .features-area{
         padding: 48px 0 0px 0;
         .features-content{
-            padding-bottom: 50px;
+            padding-bottom: 30px;
         .features-text{
             padding-top: 160px;
         }
@@ -514,6 +523,9 @@
     .features-area .features-content .freatures-subtitle {
         padding: 0 24px;
     }
+    .about.client-single.brand-area .wraper-content .client-image img {
+        left: 35%;
+    }
     .disover-area .video-player-content .o-video {
         height: 316px;
     }
@@ -601,6 +613,10 @@
             }
         }
         
+    }
+    .about.client-single.brand-area .wraper-content .client-image img {
+        left: 25%;
+        top: -35%;
     }
     .features-area .features-content .features-para {
         margin-bottom: 20px;
@@ -982,7 +998,7 @@
 @media (max-width: 1399.98px) {}
 @media (max-width: 1199.98px) {
     .about.brand-area {
-        padding: 0px 0 150px 0;
+        padding: 25px 0 150px 0;
         background-color: #f8fafc;
     }
 }
@@ -995,6 +1011,9 @@
     }
     .features-area.about {
         padding-bottom: 25px;
+    }
+    * .wow{
+        animation: none;
     }
 }
 @media (max-width: 767.98px) {
@@ -1018,17 +1037,23 @@
         line-height: 26px;
     }
     .explore-features-area.home6.team-area {
-        padding-bottom: 35px;
+        padding-bottom: 0px;
     }
-    * .wow{
-        animation: none;
-    }
+   
 
 }
 @media (max-width: 575.98px) {
     .main-pricing-area.home7 .pricing-sub-title {
         padding: 15px 10px 25px 10px;
         font-size: 14px;
+    }
+    .about.client-single.brand-area .wraper-content .client-details .para {
+        color: #797988;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .home6.team-area .team-content .team-single-content .team-social-link {
+        padding-bottom: 10px;
     }
     .main-pricing-area.home7 .pricing-title,.pricing-area .section-title .main-heading {
         font-size: 28px;
@@ -1044,6 +1069,9 @@
     }
     .features-area .features-content {
         padding-bottom: 40px;
+    }
+    .features-area.about {
+        padding-bottom: 0px;
     }
 }
 

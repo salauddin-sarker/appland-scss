@@ -430,6 +430,48 @@ header.sticky .header-top .main-nav ul li a:before {
           animation: rotateEarth 7s infinite;
 }
 
+.home4-banner-area.home5 {
+  background-image: none;
+}
+
+header.home5 .header-top .get-now-btn a {
+  border-radius: 30px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 9px 36px;
+  transition: all 0.5s;
+  border-color: #1ba555 !important;
+  color: #1ba555 !important;
+}
+header.home5 .header-top .get-now-btn a:hover {
+  color: #000000 !important;
+}
+
+.home4-banner-area.home5 .banner-left-content .banner-btn .banner-btn-uniq {
+  border-radius: 30px;
+  border: 1px solid #1ba555;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 9px 36px;
+  transition: all 0.5s;
+  color: #1ba555;
+  padding: 21px 41px;
+}
+.home4-banner-area.home5 .banner-left-content .banner-btn .banner-btn-uniq:hover {
+  background-color: #1ba555;
+  color: #000000;
+}
+
+.home4-banner-area.home5 .banner-left-content .banner-btn i {
+  color: #000000;
+}
+.home4-banner-area.home5 .banner-left-content .banner-btn i:hover {
+  color: #1ba555 !important;
+}
+
 .home4-banner-area.home6 {
   background-image: none;
 }
@@ -489,18 +531,20 @@ header.sticky .header-top .main-nav ul li a:before {
   padding: 9px 36px;
   transition: all 0.5s;
   border-color: #246efb;
-  color: #000000;
   padding: 20px 42px;
 }
 .home4-banner-area.home6 .banner-left-content .banner-btn .banner-btn-uniq:hover {
   background-color: #246efb;
-  color: #ffffff;
+  color: #ffffff !important;
   border: 1px solid transparent;
 }
 .home4-banner-area.home6 .banner-left-content .banner-btn i {
-  color: #6f62ea;
+  color: #000000;
   font-size: 30px;
   padding: 0 18px;
+}
+.home4-banner-area.home6 .banner-left-content .banner-btn i:hover {
+  color: #6f62ea;
 }
 .home4-banner-area.home6 .banner-right-content {
   position: relative;
@@ -2036,15 +2080,60 @@ button#review-tab.active {
   line-height: 28px;
   max-width: 360px;
   margin: auto;
-}
-
-.single-textimonial {
-  margin: 0 30px;
+  padding: inherit;
 }
 
 .about.client-single.brand-area {
-  background-color: #f8f8ff;
+  padding-top: 92px;
 }
+.about.client-single.brand-area .about-client-title .about-client-title {
+  padding-bottom: 7px;
+  color: #1a264a;
+  font-size: 36px;
+}
+.about.client-single.brand-area .about-client-title .about-client-subtitle {
+  color: #797988;
+  font-size: 16px;
+  line-height: 28px;
+  max-width: 620px;
+  padding-bottom: 50px;
+  margin: auto;
+}
+.about.client-single.brand-area .wraper-content {
+  background-color: #ffffff;
+  position: relative;
+  margin-top: 60px;
+}
+.about.client-single.brand-area .wraper-content .client-image img {
+  position: absolute;
+  top: -33%;
+  left: 38%;
+}
+.about.client-single.brand-area .wraper-content .client-details {
+  text-align: center;
+}
+.about.client-single.brand-area .wraper-content .client-details .client-name {
+  color: #1a264a;
+  font-size: 18px;
+  line-height: 24px;
+  padding-top: 69px;
+  font-weight: normal;
+}
+.about.client-single.brand-area .wraper-content .client-details .job-title {
+  color: #797988;
+  font-size: 16px;
+  line-height: 26px;
+}
+.about.client-single.brand-area .wraper-content .client-details .para {
+  color: #797988;
+  font-size: 22px;
+  line-height: 37px;
+  letter-spacing: 1px;
+  padding: 5px 0 54px 0;
+  max-width: 510px;
+  margin: auto;
+}
+
 .disover-area .video-player-content {
   position: relative;
 }
@@ -2227,6 +2316,9 @@ button#review-tab.active {
   .features-area.home6 {
     padding-bottom: 70px;
   }
+  .about.client-single.brand-area .wraper-content .client-image img {
+    left: 38%;
+  }
 }
 @media (max-width: 1199.98px) {
   header .header-top .main-nav ul li {
@@ -2320,6 +2412,9 @@ button#review-tab.active {
   }
   .user-count-area .count-area .count-help {
     padding: 0px 0 47px 0;
+  }
+  .about.client-single.brand-area .wraper-content .client-image img {
+    left: 35%;
   }
   .testimonial-area {
     padding: 33px 0 37px 0;
@@ -2456,6 +2551,9 @@ button#review-tab.active {
     font-size: 24px;
     padding: 0 9px;
   }
+  .about.client-single.brand-area .wraper-content .client-image img {
+    left: 32%;
+  }
   .support-area .container .support-content .support-single-content .support-title {
     font-size: 14px;
     line-height: 22px;
@@ -2468,7 +2566,7 @@ button#review-tab.active {
     padding: 48px 0 0px 0;
   }
   .features-area .features-content {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
   }
   .features-area .features-content .features-text {
     padding-top: 160px;
@@ -2593,6 +2691,9 @@ button#review-tab.active {
   .features-area .features-content .freatures-subtitle {
     padding: 0 24px;
   }
+  .about.client-single.brand-area .wraper-content .client-image img {
+    left: 35%;
+  }
   .disover-area .video-player-content .o-video {
     height: 316px;
   }
@@ -2648,6 +2749,10 @@ button#review-tab.active {
     max-width: 70%;
     margin: auto;
     display: block;
+  }
+  .about.client-single.brand-area .wraper-content .client-image img {
+    left: 25%;
+    top: -35%;
   }
   .features-area .features-content .features-para {
     margin-bottom: 20px;
@@ -3004,7 +3109,7 @@ button#review-tab.active {
 }
 @media (max-width: 1199.98px) {
   .about.brand-area {
-    padding: 0px 0 150px 0;
+    padding: 25px 0 150px 0;
     background-color: #f8fafc;
   }
 }
@@ -3017,6 +3122,10 @@ button#review-tab.active {
   }
   .features-area.about {
     padding-bottom: 25px;
+  }
+  * .wow {
+    -webkit-animation: none;
+            animation: none;
   }
 }
 @media (max-width: 767.98px) {
@@ -3040,17 +3149,21 @@ button#review-tab.active {
     line-height: 26px;
   }
   .explore-features-area.home6.team-area {
-    padding-bottom: 35px;
-  }
-  * .wow {
-    -webkit-animation: none;
-            animation: none;
+    padding-bottom: 0px;
   }
 }
 @media (max-width: 575.98px) {
   .main-pricing-area.home7 .pricing-sub-title {
     padding: 15px 10px 25px 10px;
     font-size: 14px;
+  }
+  .about.client-single.brand-area .wraper-content .client-details .para {
+    color: #797988;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .home6.team-area .team-content .team-single-content .team-social-link {
+    padding-bottom: 10px;
   }
   .main-pricing-area.home7 .pricing-title, .pricing-area .section-title .main-heading {
     font-size: 28px;
@@ -3066,6 +3179,9 @@ button#review-tab.active {
   }
   .features-area .features-content {
     padding-bottom: 40px;
+  }
+  .features-area.about {
+    padding-bottom: 0px;
   }
 }
 @media (max-width: 1199.98px) {

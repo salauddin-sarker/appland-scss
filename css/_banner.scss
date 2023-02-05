@@ -51,6 +51,45 @@
         animation: rotateEarth 7s infinite;
     }
 }
+.home4-banner-area.home5 {
+    background-image: none;
+
+}
+header.home5 .header-top .get-now-btn a {
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 9px 36px;
+    transition: all 0.5s;
+    border-color: $btnbg-color !important;
+    color: $btnbg-color !important;
+    &:hover{
+        color: $dark-color !important;
+    }
+}
+.home4-banner-area.home5 .banner-left-content .banner-btn .banner-btn-uniq {
+    border-radius: 30px;
+    border: 1px solid $btnbg-color;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 9px 36px;
+    transition: all 0.5s;
+    color: $btnbg-color;
+    padding: 21px 41px;
+    &:hover{
+        background-color: $btnbg-color;
+        color: $dark-color;
+    }
+}
+.home4-banner-area.home5 .banner-left-content .banner-btn i {
+    color: $dark-color;
+    &:hover{
+        color: $btnbg-color !important;
+    }
+}
 .home4-banner-area.home6{
   background-image: none;
   .banner-left-content{
@@ -102,19 +141,22 @@
           .banner-btn-uniq{
               @include global-btn;
               border-color: $home6-color;
-              color: $dark-color;
               padding: 20px 42px;
               &:hover{
                   background-color: $home6-color;
-                  color: $white-color;
+                  color: $white-color !important;
                   border: 1px solid transparent;
               }
           }
           // a{}
           i{
-              color: $primary-color;
+              color: $dark-color;
               font-size: $fs30;
               padding: 0 18px;
+              &:hover{
+                color: $primary-color;
+              }
+
           }
       }
   }
