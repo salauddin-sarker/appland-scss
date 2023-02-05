@@ -9,6 +9,9 @@ body{
     }
 }
 // team-main
+.main-team-area.pad{
+    padding: 120px 0
+}
 .main-team-area{
     .team-content{
         @include team-content;

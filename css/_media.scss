@@ -695,10 +695,16 @@
         padding: 9px 36px;
         padding: 16px 34px;
     }
+    .main-team-area.pad{
+        padding: 30px 0
+    }
 }
 
 /* ==========newsletter-area ========== */
 @media (max-width: 767.98px) {
+    .main-team-area.pad{
+        padding: 50px 0
+    }
     .newsletter-area {
         padding-bottom: 45px;
         padding-top: 0px !important;
@@ -758,6 +764,9 @@
     }
 }
 @media (max-width: 991.98px) {
+    .main-team-area.pad{
+        padding: 70px 0
+    }
     .features-area .features-content .features-text {
         padding-left: 75px;
     }
