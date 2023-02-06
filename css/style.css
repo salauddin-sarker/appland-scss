@@ -276,18 +276,24 @@ header .header-top {
   min-height: 80px;
   z-index: 999999;
 }
-header .header-top .container-fluid {
+header .header-top .container {
   padding: 0px 80px;
 }
-header .header-top .container-fluid .header-top .row {
+header .header-top .container .row {
   align-items: center;
 }
-header .header-top .container-fluid .header-top .row .blog-header-logo {
+header .header-top .container .row .blog-header-logo {
   max-width: 126px;
   height: auto;
 }
-header .header-top .container-fluid .header-top .row .header-logo a img {
+header .header-top .container .row .header-logo a img {
   max-width: 100px;
+}
+header .header-top .container .row .header-logo a img.normal-logo {
+  display: block;
+}
+header .header-top .container .row .header-logo a img.sticky-logo {
+  display: none;
 }
 header .header-top .main-nav ul li {
   display: inline-block;
@@ -341,20 +347,14 @@ header.sticky {
   background-color: #ffffff;
   z-index: 999;
 }
-header.sticky .header-top .row {
-  width: 100%;
-  left: 0;
-  min-height: 80px;
-  z-index: 999999;
+header.sticky .header-logo a img {
+  max-width: 100px;
 }
-header.sticky .header-top .row .blog-header-logo {
-  background-repeat: no-repeat;
-  min-height: 60px;
-  max-width: 60px;
-  background: url("../images/logo/logo.png");
+header.sticky .header-logo a img.normal-logo {
+  display: none !important;
 }
-header.sticky .header-top .row .blog-header-logo a img {
-  width: 0;
+header.sticky .header-logo a img.sticky-logo {
+  display: block !important;
 }
 header.sticky .header-top .row .main-nav ul li {
   display: inline-block;
