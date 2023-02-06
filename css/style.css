@@ -3149,7 +3149,7 @@ button#review-tab.active {
 }
 @media (max-width: 767.98px) {
   .nav-link.pricing, .nav-link.pricing2 {
-    padding: 14px 50px;
+    padding: 14px 38px;
   }
   .features-area .features-icon {
     height: 125px;
