@@ -212,8 +212,22 @@ header{
 header.sticky{
     transition: all .7s;
     scroll-behavior: smooth;
-    box-shadow: 0px 1px 5px #fff;
-    .header-top{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+    background-color: $white-color;
+    z-index: 999;
+    .header-top .row{
+        .blog-header-logo{
+            background-repeat: no-repeat;
+            min-height: 60px;
+            max-width: 60px;
+            background: url('../images/logo/logo.png');
+            a{
+                img{
+                width: 0;
+            
+            }
+            }
+        }
         width: 100%;
         left: 0;
         min-height: 80px;
@@ -228,12 +242,12 @@ header.sticky{
                             transform: scaleX(1);
                         }
                         a{
-                            color: $white-color;
+                            color: $dark-color;
                             font-size: $fs16;
                             font-weight: 400;
                             position: relative;
                             &:before{
-                                background-color: $white-color;
+                                background-color: $dark-color;
                                 bottom: -2px;
                                 content: "";
                                 height: 1px;
@@ -247,8 +261,24 @@ header.sticky{
                     }
                 }
             }
-
+            .get-now-btn {
+                align-items: center;
+                display: flex;
+                a{
+                    @include global-btn;
+                    display: inline-block;
+                    margin-left: 33px;
+                    color: $btnbg-color;
+                    background-color: $white-color;
+                    color: $dark-color;
+                    border: 1px solid $dark-color;
+                }
+                &:hover.get-now-btn a{
+                    background-color:  $dark-color;
+                    color: $white-color;
+                    border: none;
+                }
+               
+            }
         }
-    background-color: $dark-color;
-    z-index: 999;
 }

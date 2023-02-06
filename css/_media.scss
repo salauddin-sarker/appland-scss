@@ -286,7 +286,7 @@
             .main-nav{
                 ul{
                     li{
-                        padding: 20px 9px;
+                        padding: 20px 7px;
                         a{
                             font-size: 14px;
                         }
@@ -301,6 +301,34 @@
                 }
             }
         }
+    }
+    header.sticky .header-top .row .get-now-btn a {
+        font-size: 13px;
+        padding: 9px 6px;
+        margin-left: 0px;
+        color: #1ba555;
+    }
+    header.sticky .header-top .row .main-nav ul li a {
+        font-size: 14px;
+    }
+    header.sticky .header-top .get-now-btn a {
+        font-size: 12px;
+        padding: 7px 9px;
+        margin-left: 7px;
+    }
+    header.sticky.home5 .header-top .get-now-btn a {
+        font-size: 14px;
+        padding: 7px 9px;
+        margin-left: 7px;
+    }
+    header.sticky .header-top .get-now-btn a {
+        font-size: 14px;
+        padding: 7px 9px;
+        margin-left: 10px;
+    }header.sticky.home5 .header-top .get-now-btn a {
+        font-size: 13px;
+        padding: 7px 7px;
+        margin-left: 4px;
     }
             
          // banner
@@ -1015,6 +1043,12 @@
     .about.brand-area {
         padding: 25px 0 150px 0;
         background-color: #f8fafc;
+    }
+    header.sticky .header-top .row .main-nav ul li {
+        padding: 14px 7px;
+    }
+    header.sticky .header-top .row .get-now-btn a {
+        margin-left: 7px;
     }
 }
 @media (max-width: 991.98px) {

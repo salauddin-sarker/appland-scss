@@ -337,32 +337,41 @@ header .header-top .get-now-btn:hover.get-now-btn a {
 header.sticky {
   transition: all 0.7s;
   scroll-behavior: smooth;
-  box-shadow: 0px 1px 5px #fff;
-  background-color: #000000;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #ffffff;
   z-index: 999;
 }
-header.sticky .header-top {
+header.sticky .header-top .row {
   width: 100%;
   left: 0;
   min-height: 80px;
   z-index: 999999;
 }
-header.sticky .header-top .main-nav ul li {
+header.sticky .header-top .row .blog-header-logo {
+  background-repeat: no-repeat;
+  min-height: 60px;
+  max-width: 60px;
+  background: url("../images/logo/logo.png");
+}
+header.sticky .header-top .row .blog-header-logo a img {
+  width: 0;
+}
+header.sticky .header-top .row .main-nav ul li {
   display: inline-block;
   list-style: none;
   padding: 40px 17px;
 }
-header.sticky .header-top .main-nav ul li:hover a:before {
+header.sticky .header-top .row .main-nav ul li:hover a:before {
   transform: scaleX(1);
 }
-header.sticky .header-top .main-nav ul li a {
-  color: #ffffff;
+header.sticky .header-top .row .main-nav ul li a {
+  color: #000000;
   font-size: 16px;
   font-weight: 400;
   position: relative;
 }
-header.sticky .header-top .main-nav ul li a:before {
-  background-color: #ffffff;
+header.sticky .header-top .row .main-nav ul li a:before {
+  background-color: #000000;
   bottom: -2px;
   content: "";
   height: 1px;
@@ -371,6 +380,30 @@ header.sticky .header-top .main-nav ul li a:before {
   transform: scaleX(0);
   transition: all 0.3s;
   width: 100%;
+}
+header.sticky .header-top .row .get-now-btn {
+  align-items: center;
+  display: flex;
+}
+header.sticky .header-top .row .get-now-btn a {
+  border-radius: 30px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 9px 36px;
+  transition: all 0.5s;
+  display: inline-block;
+  margin-left: 33px;
+  color: #1ba555;
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+}
+header.sticky .header-top .row .get-now-btn:hover.get-now-btn a {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
 }
 
 .home4-banner-area {
@@ -2505,7 +2538,7 @@ button#review-tab.active {
 }
 @media (max-width: 991.98px) {
   header.home5 .header-top .main-nav ul li {
-    padding: 20px 9px;
+    padding: 20px 7px;
   }
   header.home5 .header-top .main-nav ul li a {
     font-size: 14px;
@@ -2514,6 +2547,35 @@ button#review-tab.active {
     font-size: 14px;
     padding: 7px 14px;
     margin-left: 10px;
+  }
+  header.sticky .header-top .row .get-now-btn a {
+    font-size: 13px;
+    padding: 9px 6px;
+    margin-left: 0px;
+    color: #1ba555;
+  }
+  header.sticky .header-top .row .main-nav ul li a {
+    font-size: 14px;
+  }
+  header.sticky .header-top .get-now-btn a {
+    font-size: 12px;
+    padding: 7px 9px;
+    margin-left: 7px;
+  }
+  header.sticky.home5 .header-top .get-now-btn a {
+    font-size: 14px;
+    padding: 7px 9px;
+    margin-left: 7px;
+  }
+  header.sticky .header-top .get-now-btn a {
+    font-size: 14px;
+    padding: 7px 9px;
+    margin-left: 10px;
+  }
+  header.sticky.home5 .header-top .get-now-btn a {
+    font-size: 13px;
+    padding: 7px 7px;
+    margin-left: 4px;
   }
   .home4-banner-area {
     padding-bottom: 145px;
@@ -3130,6 +3192,12 @@ button#review-tab.active {
   .about.brand-area {
     padding: 25px 0 150px 0;
     background-color: #f8fafc;
+  }
+  header.sticky .header-top .row .main-nav ul li {
+    padding: 14px 7px;
+  }
+  header.sticky .header-top .row .get-now-btn a {
+    margin-left: 7px;
   }
 }
 @media (max-width: 991.98px) {

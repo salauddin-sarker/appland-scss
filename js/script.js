@@ -148,3 +148,7 @@ window.addEventListener('scroll',function(){
   const header = document.querySelector('header');
   header.classList.toggle("sticky", window.scrollY > 100);
 });
+window.addEventListener('scroll',function(){
+  const header2 = document.querySelector('header2');
+  header2.classList.toggle("sticky-logo", window.scrollY > 100);
+});
