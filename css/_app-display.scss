@@ -28,7 +28,7 @@
             width: 152px;
             &:hover{
                 background-color: $btnbg-color;
-                color: $white-color;
+                color: $white-color !important;
             }
             i{
                 padding-right: 16px;
