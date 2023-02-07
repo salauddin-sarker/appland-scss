@@ -1263,6 +1263,7 @@ body {
 }
 .app-display-area .app-display-btn a:hover {
   background-color: #1ba555;
+  color: #ffffff;
 }
 .app-display-area .app-display-btn a i {
   padding-right: 16px;
